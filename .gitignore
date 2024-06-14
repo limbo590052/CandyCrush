@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+game.VC.db
+/Debug/game.exe
+/Debug/game.res
+/Source/game.aps
