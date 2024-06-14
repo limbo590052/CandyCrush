@@ -12,8 +12,8 @@
 00000000000000000000
 00000000000000000000
 13000 	#one star
-14000 	#two star
-15000 	#three star
+20000 	#two star
+40000 	#three star
 20 	#limit step
 0	#vertical
 0	#horizontal

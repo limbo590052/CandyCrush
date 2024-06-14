@@ -11,10 +11,10 @@
 00000000000000000000
 00000000000000000000
 00000000000000000000
-4000 	#one star
-5000 	#two star
-6000 	#three star
-15 	#limit step
+2000 	#one star
+10000 	#two star
+20000 	#three star
+4 	#limit step
 0	#vertical
 0	#horizontal
 0	#Teffect

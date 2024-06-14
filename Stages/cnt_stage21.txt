@@ -11,15 +11,15 @@
 00000000000000000000
 00000000000000000000
 00000000000000000000
-5500 	#one star
-6600 	#two star
-9000 	#three star
+10000 	#one star
+30000 	#two star
+60000 	#three star
 30 	#limit step
 0	#vertical
 0	#horizontal
 0	#Teffect
 0	#chocolate
-5	#candy type
+4	#candy type
 1	#mode
 0	#initcandy
 1	#portal
