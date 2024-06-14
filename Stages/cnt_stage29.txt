@@ -14,13 +14,13 @@
 5000 	#one star
 6000 	#two star
 10000 	#three star
-10 	#limit step
+60 	#limit step
 0	#vertical
 0	#horizontal
 0	#Teffect
 0	#chocolate
 3	#candy type
-1	#mode
+2	#mode
 0	#initcandy
 0	#portal
 0	#LastScore
