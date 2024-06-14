@@ -1,0 +1,1316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|x64">
+      <Configuration>Template</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnitTest|Win32">
+      <Configuration>UnitTest</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="UnitTest|x64">
+      <Configuration>UnitTest</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DDD280D7-4B85-4B03-BBC4-C46CA9BECCCB}</ProjectGuid>
+    <RootNamespace>game</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">.\UnitTest\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">.\UnitTest\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'" />
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft DirectX SDK %28February 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Debug/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ddraw.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Release/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\Release/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;ddraw.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Release/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\UnitTest/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNITTEST;_CRT_SECURE_NO_DEPRECATE;WINVER=0x400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\UnitTest/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\UnitTest/</AssemblerListingLocation>
+      <ObjectFileName>.\UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName>.\UnitTest/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;cppunitd.lib;testrunnerd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\UnitTest/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\UnitTest/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UnitTest/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\UnitTest/game.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_UNITTEST;_CRT_SECURE_NO_DEPRECATE;WINVER=0x400;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>.\UnitTest/game.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\UnitTest/</AssemblerListingLocation>
+      <ObjectFileName>.\UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName>.\UnitTest/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0404</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;winmm.lib;dsound.lib;cppunitd.lib;testrunnerd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\UnitTest/game.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\UnitTest/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\UnitTest/game.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="RES\bmp0.bmp" />
+    <None Include="RES\bmp1.bmp" />
+    <None Include="RES\bmp10.bmp" />
+    <None Include="RES\bmp2.bmp" />
+    <None Include="RES\bmp3.bmp" />
+    <None Include="RES\bmp4.bmp" />
+    <None Include="RES\bmp5.bmp" />
+    <None Include="RES\bmp6.bmp" />
+    <None Include="RES\bmp7.bmp" />
+    <None Include="RES\bmp8.bmp" />
+    <None Include="RES\bmp9.bmp" />
+    <None Include="RES\center.bmp" />
+    <None Include="RES\continue.bmp" />
+    <None Include="Res\corner.bmp" />
+    <None Include="res\game.ico" />
+    <None Include="res\game.rc2" />
+    <None Include="RES\gamecurs.cur" />
+    <None Include="res\gameDoc.ico" />
+    <None Include="RES\loading.bmp" />
+    <None Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\audio.cpp" />
+    <ClCompile Include="Source\Blast.cpp" />
+    <ClCompile Include="Source\Candy.cpp" />
+    <ClCompile Include="Source\GameArea.cpp" />
+    <ClCompile Include="Source\game.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="Source\ScoreBoard.cpp" />
+    <ClCompile Include="Source\Stage.cpp" />
+    <ClCompile Include="Source\StdAfx.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">UnitTest/</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">UnitTest/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">UnitTest/</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">UnitTest/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\audio.h" />
+    <ClInclude Include="Source\AudioID.h" />
+    <ClInclude Include="Source\Blast.h" />
+    <ClInclude Include="Source\Candy.h" />
+    <ClInclude Include="Source\GameArea.h" />
+    <ClInclude Include="Source\game.h" />
+    <ClInclude Include="Source\gameDoc.h" />
+    <ClInclude Include="Source\gameView.h" />
+    <ClInclude Include="Source\MainFrm.h" />
+    <ClInclude Include="Source\Resource.h" />
+    <ClInclude Include="Source\ScoreBoard.h" />
+    <ClInclude Include="Source\Stage.h" />
+    <ClInclude Include="Source\StdAfx.h" />
+    <ClInclude Include="Source\gamelib.h" />
+    <ClInclude Include="Source\mygame.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='UnitTest|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmaps\bitmap3.bmp" />
+    <Image Include="Bitmaps\BlueCandy1.bmp" />
+    <Image Include="Bitmaps\BlueCandy2.bmp" />
+    <Image Include="Bitmaps\BlueCandy3.bmp" />
+    <Image Include="Bitmaps\BlueCandy4.bmp" />
+    <Image Include="Bitmaps\BlueExplode1.bmp" />
+    <Image Include="Bitmaps\BlueExplode10.bmp" />
+    <Image Include="Bitmaps\BlueExplode2.bmp" />
+    <Image Include="Bitmaps\BlueExplode3.bmp" />
+    <Image Include="Bitmaps\BlueExplode4.bmp" />
+    <Image Include="Bitmaps\BlueExplode5.bmp" />
+    <Image Include="Bitmaps\BlueExplode6.bmp" />
+    <Image Include="Bitmaps\BlueExplode7.bmp" />
+    <Image Include="Bitmaps\BlueExplode8.bmp" />
+    <Image Include="Bitmaps\BlueExplode9.bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (1).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (10).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (11).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (12).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (13).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (14).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (15).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (16).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (17).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (18).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (19).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (2).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (20).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (21).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (22).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (23).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (24).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (25).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (26).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (27).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (28).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (29).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (3).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (30).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (4).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (5).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (6).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (7).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (8).bmp" />
+    <Image Include="Bitmaps\BlueHLineExplode (9).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (1).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (10).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (11).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (12).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (13).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (14).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (15).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (16).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (17).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (18).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (19).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (2).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (20).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (21).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (22).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (23).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (24).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (25).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (26).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (27).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (28).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (29).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (3).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (30).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (4).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (5).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (6).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (7).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (8).bmp" />
+    <Image Include="Bitmaps\BlueVLineExplode (9).bmp" />
+    <Image Include="bitmaps\bmp00001.bmp" />
+    <Image Include="Bitmaps\candy_crush (1).bmp" />
+    <Image Include="Bitmaps\candy_crush (10).bmp" />
+    <Image Include="Bitmaps\candy_crush (11).bmp" />
+    <Image Include="Bitmaps\candy_crush (12).bmp" />
+    <Image Include="Bitmaps\candy_crush (13).bmp" />
+    <Image Include="Bitmaps\candy_crush (14).bmp" />
+    <Image Include="Bitmaps\candy_crush (15).bmp" />
+    <Image Include="Bitmaps\candy_crush (16).bmp" />
+    <Image Include="Bitmaps\candy_crush (17).bmp" />
+    <Image Include="Bitmaps\candy_crush (18).bmp" />
+    <Image Include="Bitmaps\candy_crush (19).bmp" />
+    <Image Include="Bitmaps\candy_crush (2).bmp" />
+    <Image Include="Bitmaps\candy_crush (20).bmp" />
+    <Image Include="Bitmaps\candy_crush (21).bmp" />
+    <Image Include="Bitmaps\candy_crush (22).bmp" />
+    <Image Include="Bitmaps\candy_crush (23).bmp" />
+    <Image Include="Bitmaps\candy_crush (3).bmp" />
+    <Image Include="Bitmaps\candy_crush (4).bmp" />
+    <Image Include="Bitmaps\candy_crush (5).bmp" />
+    <Image Include="Bitmaps\candy_crush (6).bmp" />
+    <Image Include="Bitmaps\candy_crush (7).bmp" />
+    <Image Include="Bitmaps\candy_crush (8).bmp" />
+    <Image Include="Bitmaps\candy_crush (9).bmp" />
+    <Image Include="Bitmaps\CheatButton.bmp" />
+    <Image Include="Bitmaps\ClickedP1YellowCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP2YellowCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP3YellowCandy.bmp" />
+    <Image Include="Bitmaps\ClickedYellowCandy.bmp" />
+    <Image Include="Bitmaps\ContainerStar.bmp" />
+    <Image Include="Bitmaps\EmptyStar1.bmp" />
+    <Image Include="Bitmaps\EmptyStar2.bmp" />
+    <Image Include="Bitmaps\ExitButton.bmp" />
+    <Image Include="Bitmaps\Failed.bmp" />
+    <Image Include="Bitmaps\GreenCandy1.bmp" />
+    <Image Include="Bitmaps\GreenCandy2.bmp" />
+    <Image Include="Bitmaps\GreenCandy3.bmp" />
+    <Image Include="Bitmaps\GreenCandy4.bmp" />
+    <Image Include="Bitmaps\GreenExplode1.bmp" />
+    <Image Include="Bitmaps\GreenExplode10.bmp" />
+    <Image Include="Bitmaps\GreenExplode2.bmp" />
+    <Image Include="Bitmaps\GreenExplode3.bmp" />
+    <Image Include="Bitmaps\GreenExplode4.bmp" />
+    <Image Include="Bitmaps\GreenExplode5.bmp" />
+    <Image Include="Bitmaps\GreenExplode6.bmp" />
+    <Image Include="Bitmaps\GreenExplode7.bmp" />
+    <Image Include="Bitmaps\GreenExplode8.bmp" />
+    <Image Include="Bitmaps\GreenExplode9.bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (1).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (10).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (11).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (12).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (13).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (14).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (15).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (16).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (17).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (18).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (19).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (2).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (20).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (21).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (22).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (23).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (24).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (25).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (26).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (27).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (28).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (29).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (3).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (30).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (4).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (5).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (6).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (7).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (8).bmp" />
+    <Image Include="Bitmaps\GreenHLineExplode (9).bmp" />
+    <Image Include="Bitmaps\GreenStar1.bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (1).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (10).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (11).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (12).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (13).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (14).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (15).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (16).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (17).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (18).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (19).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (2).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (20).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (21).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (22).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (23).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (24).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (25).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (26).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (27).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (28).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (29).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (3).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (30).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (4).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (5).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (6).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (7).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (8).bmp" />
+    <Image Include="Bitmaps\GreenVLineExplode (9).bmp" />
+    <Image Include="Bitmaps\howtoplay1.bmp" />
+    <Image Include="Bitmaps\howtoplay2.bmp" />
+    <Image Include="Bitmaps\howtoplay3.bmp" />
+    <Image Include="Bitmaps\inGameLoading.bmp" />
+    <Image Include="Bitmaps\Left.bmp" />
+    <Image Include="Bitmaps\loginLoading.bmp" />
+    <Image Include="Bitmaps\NextButton-0.bmp" />
+    <Image Include="Bitmaps\NextButton-1.bmp" />
+    <Image Include="Bitmaps\NextButton-2.bmp" />
+    <Image Include="Bitmaps\NextButton-3.bmp" />
+    <Image Include="Bitmaps\NextButton-4.bmp" />
+    <Image Include="Bitmaps\NextButton-5.bmp" />
+    <Image Include="Bitmaps\NextButton-6.bmp" />
+    <Image Include="Bitmaps\NextButton-7.bmp" />
+    <Image Include="Bitmaps\NextButton-8.bmp" />
+    <Image Include="Bitmaps\NextButton-9.bmp" />
+    <Image Include="Bitmaps\NextButton.bmp" />
+    <Image Include="Bitmaps\NextButtonClicked.bmp" />
+    <Image Include="Bitmaps\NormalExplode1.bmp" />
+    <Image Include="Bitmaps\NormalExplode10.bmp" />
+    <Image Include="Bitmaps\NormalExplode2.bmp" />
+    <Image Include="Bitmaps\NormalExplode3.bmp" />
+    <Image Include="Bitmaps\NormalExplode4.bmp" />
+    <Image Include="Bitmaps\NormalExplode5.bmp" />
+    <Image Include="Bitmaps\NormalExplode6.bmp" />
+    <Image Include="Bitmaps\NormalExplode7.bmp" />
+    <Image Include="Bitmaps\NormalExplode8.bmp" />
+    <Image Include="Bitmaps\NormalExplode9.bmp" />
+    <Image Include="Bitmaps\OrangeCandy1.bmp" />
+    <Image Include="Bitmaps\OrangeCandy2.bmp" />
+    <Image Include="Bitmaps\OrangeCandy3.bmp" />
+    <Image Include="Bitmaps\OrangeCandy4.bmp" />
+    <Image Include="Bitmaps\OrangeExplode1.bmp" />
+    <Image Include="Bitmaps\OrangeExplode10.bmp" />
+    <Image Include="Bitmaps\OrangeExplode2.bmp" />
+    <Image Include="Bitmaps\OrangeExplode3.bmp" />
+    <Image Include="Bitmaps\OrangeExplode4.bmp" />
+    <Image Include="Bitmaps\OrangeExplode5.bmp" />
+    <Image Include="Bitmaps\OrangeExplode6.bmp" />
+    <Image Include="Bitmaps\OrangeExplode7.bmp" />
+    <Image Include="Bitmaps\OrangeExplode8.bmp" />
+    <Image Include="Bitmaps\OrangeExplode9.bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (1).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (10).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (11).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (12).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (13).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (14).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (15).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (16).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (17).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (18).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (19).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (2).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (20).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (21).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (22).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (23).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (24).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (25).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (26).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (27).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (28).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (29).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (3).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (30).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (4).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (5).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (6).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (7).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (8).bmp" />
+    <Image Include="Bitmaps\OrangeHLineExplode (9).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (1).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (10).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (11).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (12).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (13).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (14).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (15).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (16).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (17).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (18).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (19).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (2).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (20).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (21).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (22).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (23).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (24).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (25).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (26).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (27).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (28).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (29).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (3).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (30).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (4).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (5).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (6).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (7).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (8).bmp" />
+    <Image Include="Bitmaps\OrangeVLineExplode (9).bmp" />
+    <Image Include="Bitmaps\P1YellowCandy.bmp" />
+    <Image Include="Bitmaps\P2YellowCandy.bmp" />
+    <Image Include="Bitmaps\P3YellowCandy.bmp" />
+    <Image Include="Bitmaps\PlayButton1.bmp" />
+    <Image Include="Bitmaps\PlayButton10.bmp" />
+    <Image Include="Bitmaps\PlayButton11.bmp" />
+    <Image Include="Bitmaps\PlayButton12.bmp" />
+    <Image Include="Bitmaps\PlayButton2.bmp" />
+    <Image Include="Bitmaps\PlayButton3.bmp" />
+    <Image Include="Bitmaps\PlayButton4.bmp" />
+    <Image Include="Bitmaps\PlayButton5.bmp" />
+    <Image Include="Bitmaps\PlayButton6.bmp" />
+    <Image Include="Bitmaps\PlayButton7.bmp" />
+    <Image Include="Bitmaps\PlayButton8.bmp" />
+    <Image Include="Bitmaps\PlayButton9.bmp" />
+    <Image Include="Bitmaps\PurpleCandy1.bmp" />
+    <Image Include="Bitmaps\PurpleCandy2.bmp" />
+    <Image Include="Bitmaps\PurpleCandy3.bmp" />
+    <Image Include="Bitmaps\PurpleCandy4.bmp" />
+    <Image Include="Bitmaps\PurpleExplode1.bmp" />
+    <Image Include="Bitmaps\PurpleExplode10.bmp" />
+    <Image Include="Bitmaps\PurpleExplode2.bmp" />
+    <Image Include="Bitmaps\PurpleExplode3.bmp" />
+    <Image Include="Bitmaps\PurpleExplode4.bmp" />
+    <Image Include="Bitmaps\PurpleExplode5.bmp" />
+    <Image Include="Bitmaps\PurpleExplode6.bmp" />
+    <Image Include="Bitmaps\PurpleExplode7.bmp" />
+    <Image Include="Bitmaps\PurpleExplode8.bmp" />
+    <Image Include="Bitmaps\PurpleExplode9.bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (1).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (10).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (11).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (12).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (13).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (14).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (15).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (16).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (17).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (18).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (19).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (2).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (20).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (21).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (22).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (23).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (24).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (25).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (26).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (27).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (28).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (29).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (3).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (30).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (4).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (5).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (6).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (7).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (8).bmp" />
+    <Image Include="Bitmaps\PurpleHLineExplode (9).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (1).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (10).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (11).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (12).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (13).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (14).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (15).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (16).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (17).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (18).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (19).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (2).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (20).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (21).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (22).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (23).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (24).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (25).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (26).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (27).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (28).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (29).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (3).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (30).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (4).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (5).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (6).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (7).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (8).bmp" />
+    <Image Include="Bitmaps\PurpleVLineExplode (9).bmp" />
+    <Image Include="Bitmaps\RedCandy1.bmp" />
+    <Image Include="Bitmaps\RedCandy2.bmp" />
+    <Image Include="Bitmaps\RedCandy3.bmp" />
+    <Image Include="Bitmaps\RedCandy4.bmp" />
+    <Image Include="Bitmaps\RedExplode1.bmp" />
+    <Image Include="Bitmaps\RedExplode10.bmp" />
+    <Image Include="Bitmaps\RedExplode2.bmp" />
+    <Image Include="Bitmaps\RedExplode3.bmp" />
+    <Image Include="Bitmaps\RedExplode4.bmp" />
+    <Image Include="Bitmaps\RedExplode5.bmp" />
+    <Image Include="Bitmaps\RedExplode6.bmp" />
+    <Image Include="Bitmaps\RedExplode7.bmp" />
+    <Image Include="Bitmaps\RedExplode8.bmp" />
+    <Image Include="Bitmaps\RedExplode9.bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (1).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (10).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (11).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (12).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (13).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (14).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (15).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (16).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (17).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (18).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (19).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (2).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (20).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (21).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (22).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (23).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (24).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (25).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (26).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (27).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (28).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (29).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (3).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (30).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (4).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (5).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (6).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (7).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (8).bmp" />
+    <Image Include="Bitmaps\RedHLineExplode (9).bmp" />
+    <Image Include="Bitmaps\RedStar1.bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (1).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (10).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (11).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (12).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (13).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (14).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (15).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (16).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (17).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (18).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (19).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (2).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (20).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (21).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (22).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (23).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (24).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (25).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (26).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (27).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (28).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (29).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (3).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (30).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (4).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (5).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (6).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (7).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (8).bmp" />
+    <Image Include="Bitmaps\RedVLineExplode (9).bmp" />
+    <Image Include="Bitmaps\RetryButton-0.bmp" />
+    <Image Include="Bitmaps\RetryButton-1.bmp" />
+    <Image Include="Bitmaps\RetryButton-2.bmp" />
+    <Image Include="Bitmaps\RetryButton-3.bmp" />
+    <Image Include="Bitmaps\RetryButton-4.bmp" />
+    <Image Include="Bitmaps\RetryButton-5.bmp" />
+    <Image Include="Bitmaps\RetryButton-6.bmp" />
+    <Image Include="Bitmaps\RetryButton-7.bmp" />
+    <Image Include="Bitmaps\RetryButton-8.bmp" />
+    <Image Include="Bitmaps\RetryButton-9.bmp" />
+    <Image Include="Bitmaps\RetryButton.bmp" />
+    <Image Include="Bitmaps\RetryButtonClicked.bmp" />
+    <Image Include="Bitmaps\Right.bmp" />
+    <Image Include="Bitmaps\ScoreBar.bmp" />
+    <Image Include="Bitmaps\BlueCandy.bmp" />
+    <Image Include="Bitmaps\ClickedBlueCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP1BlueCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP1GreenCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP1OrangeCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP1PurpleCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP1RedCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP2BlueCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP2GreenCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP2OrangeCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP2PurpleCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP2RedCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP3BlueCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP3GreenCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP3OrangeCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP3PurpleCandy.bmp" />
+    <Image Include="Bitmaps\ClickedP3RedCandy.bmp" />
+    <Image Include="Bitmaps\container.bmp" />
+    <Image Include="Bitmaps\GreenCandy.bmp" />
+    <Image Include="Bitmaps\ClickedGreenCandy.bmp" />
+    <Image Include="Bitmaps\inGameBG1.bmp" />
+    <Image Include="Bitmaps\InitBackground.bmp" />
+    <Image Include="Bitmaps\OrangeCandy.bmp" />
+    <Image Include="Bitmaps\ClickedOrangeCandy.bmp" />
+    <Image Include="Bitmaps\P1BlueCandy.bmp" />
+    <Image Include="Bitmaps\P1GreenCandy.bmp" />
+    <Image Include="Bitmaps\P1OrangeCandy.bmp" />
+    <Image Include="Bitmaps\P1PurpleCandy.bmp" />
+    <Image Include="Bitmaps\P1RedCandy.bmp" />
+    <Image Include="Bitmaps\P2BlueCandy.bmp" />
+    <Image Include="Bitmaps\P2GreenCandy.bmp" />
+    <Image Include="Bitmaps\P2OrangeCandy.bmp" />
+    <Image Include="Bitmaps\P2PurpleCandy.bmp" />
+    <Image Include="Bitmaps\P2RedCandy.bmp" />
+    <Image Include="Bitmaps\P3BlueCandy.bmp" />
+    <Image Include="Bitmaps\P3GreenCandy.bmp" />
+    <Image Include="Bitmaps\P3OrangeCandy.bmp" />
+    <Image Include="Bitmaps\P3PurpleCandy.bmp" />
+    <Image Include="Bitmaps\P3RedCandy.bmp" />
+    <Image Include="Bitmaps\PlayButton.bmp" />
+    <Image Include="Bitmaps\ProfileButton.bmp" />
+    <Image Include="Bitmaps\PurpleCandy.bmp" />
+    <Image Include="Bitmaps\ClickedPurpleCandy.bmp" />
+    <Image Include="Bitmaps\RedCandy.bmp" />
+    <Image Include="Bitmaps\ClickedRedCandy.bmp" />
+    <Image Include="Bitmaps\score_board.bmp" />
+    <Image Include="Bitmaps\score_state_over.bmp" />
+    <Image Include="Bitmaps\setting.bmp" />
+    <Image Include="Bitmaps\shatter10_BLU.bmp" />
+    <Image Include="Bitmaps\shatter10_GRE.bmp" />
+    <Image Include="Bitmaps\shatter10_ORG.bmp" />
+    <Image Include="Bitmaps\shatter10_PUR.bmp" />
+    <Image Include="Bitmaps\shatter10_RED.bmp" />
+    <Image Include="Bitmaps\shatter10_YEL.bmp" />
+    <Image Include="Bitmaps\shatter11_BLU.bmp" />
+    <Image Include="Bitmaps\shatter11_GRE.bmp" />
+    <Image Include="Bitmaps\shatter11_ORG.bmp" />
+    <Image Include="Bitmaps\shatter11_PUR.bmp" />
+    <Image Include="Bitmaps\shatter11_RED.bmp" />
+    <Image Include="Bitmaps\shatter11_YEL.bmp" />
+    <Image Include="Bitmaps\shatter12_BLU.bmp" />
+    <Image Include="Bitmaps\shatter12_GRE.bmp" />
+    <Image Include="Bitmaps\shatter12_ORG.bmp" />
+    <Image Include="Bitmaps\shatter12_PUR.bmp" />
+    <Image Include="Bitmaps\shatter12_RED.bmp" />
+    <Image Include="Bitmaps\shatter12_YEL.bmp" />
+    <Image Include="Bitmaps\shatter13_BLU.bmp" />
+    <Image Include="Bitmaps\shatter13_GRE.bmp" />
+    <Image Include="Bitmaps\shatter13_ORG.bmp" />
+    <Image Include="Bitmaps\shatter13_PUR.bmp" />
+    <Image Include="Bitmaps\shatter13_RED.bmp" />
+    <Image Include="Bitmaps\shatter13_YEL.bmp" />
+    <Image Include="Bitmaps\shatter14_BLU.bmp" />
+    <Image Include="Bitmaps\shatter14_GRE.bmp" />
+    <Image Include="Bitmaps\shatter14_ORG.bmp" />
+    <Image Include="Bitmaps\shatter14_PUR.bmp" />
+    <Image Include="Bitmaps\shatter14_RED.bmp" />
+    <Image Include="Bitmaps\shatter14_YEL.bmp" />
+    <Image Include="Bitmaps\shatter15_BLU.bmp" />
+    <Image Include="Bitmaps\shatter15_GRE.bmp" />
+    <Image Include="Bitmaps\shatter15_ORG.bmp" />
+    <Image Include="Bitmaps\shatter15_PUR.bmp" />
+    <Image Include="Bitmaps\shatter15_RED.bmp" />
+    <Image Include="Bitmaps\shatter15_YEL.bmp" />
+    <Image Include="Bitmaps\shatter1_BLU.bmp" />
+    <Image Include="Bitmaps\shatter1_GRE.bmp" />
+    <Image Include="Bitmaps\shatter1_ORG.bmp" />
+    <Image Include="Bitmaps\shatter1_PUR.bmp" />
+    <Image Include="Bitmaps\shatter1_RED.bmp" />
+    <Image Include="Bitmaps\shatter1_YEL.bmp" />
+    <Image Include="Bitmaps\shatter2_BLU.bmp" />
+    <Image Include="Bitmaps\shatter2_GRE.bmp" />
+    <Image Include="Bitmaps\shatter2_ORG.bmp" />
+    <Image Include="Bitmaps\shatter2_PUR.bmp" />
+    <Image Include="Bitmaps\shatter2_RED.bmp" />
+    <Image Include="Bitmaps\shatter2_YEL.bmp" />
+    <Image Include="Bitmaps\shatter3_BLU.bmp" />
+    <Image Include="Bitmaps\shatter3_GRE.bmp" />
+    <Image Include="Bitmaps\shatter3_ORG.bmp" />
+    <Image Include="Bitmaps\shatter3_PUR.bmp" />
+    <Image Include="Bitmaps\shatter3_RED.bmp" />
+    <Image Include="Bitmaps\shatter3_YEL.bmp" />
+    <Image Include="Bitmaps\shatter4_BLU.bmp" />
+    <Image Include="Bitmaps\shatter4_GRE.bmp" />
+    <Image Include="Bitmaps\shatter4_ORG.bmp" />
+    <Image Include="Bitmaps\shatter4_PUR.bmp" />
+    <Image Include="Bitmaps\shatter4_RED.bmp" />
+    <Image Include="Bitmaps\shatter4_YEL.bmp" />
+    <Image Include="Bitmaps\shatter5_BLU.bmp" />
+    <Image Include="Bitmaps\shatter5_GRE.bmp" />
+    <Image Include="Bitmaps\shatter5_ORG.bmp" />
+    <Image Include="Bitmaps\shatter5_PUR.bmp" />
+    <Image Include="Bitmaps\shatter5_RED.bmp" />
+    <Image Include="Bitmaps\shatter5_YEL.bmp" />
+    <Image Include="Bitmaps\shatter6_BLU.bmp" />
+    <Image Include="Bitmaps\shatter6_GRE.bmp" />
+    <Image Include="Bitmaps\shatter6_ORG.bmp" />
+    <Image Include="Bitmaps\shatter6_PUR.bmp" />
+    <Image Include="Bitmaps\shatter6_RED.bmp" />
+    <Image Include="Bitmaps\shatter6_YEL.bmp" />
+    <Image Include="Bitmaps\shatter7_BLU.bmp" />
+    <Image Include="Bitmaps\shatter7_GRE.bmp" />
+    <Image Include="Bitmaps\shatter7_ORG.bmp" />
+    <Image Include="Bitmaps\shatter7_PUR.bmp" />
+    <Image Include="Bitmaps\shatter7_RED.bmp" />
+    <Image Include="Bitmaps\shatter7_YEL.bmp" />
+    <Image Include="Bitmaps\shatter8_BLU.bmp" />
+    <Image Include="Bitmaps\shatter8_GRE.bmp" />
+    <Image Include="Bitmaps\shatter8_ORG.bmp" />
+    <Image Include="Bitmaps\shatter8_PUR.bmp" />
+    <Image Include="Bitmaps\shatter8_RED.bmp" />
+    <Image Include="Bitmaps\shatter8_YEL.bmp" />
+    <Image Include="Bitmaps\shatter9_BLU.bmp" />
+    <Image Include="Bitmaps\shatter9_GRE.bmp" />
+    <Image Include="Bitmaps\shatter9_ORG.bmp" />
+    <Image Include="Bitmaps\shatter9_PUR.bmp" />
+    <Image Include="Bitmaps\shatter9_RED.bmp" />
+    <Image Include="Bitmaps\shatter9_YEL.bmp" />
+    <Image Include="Bitmaps\Stage_Button_Blue.bmp" />
+    <Image Include="Bitmaps\Stage_Button_Green.bmp" />
+    <Image Include="Bitmaps\Stage_Button_Grey.bmp" />
+    <Image Include="Bitmaps\Stage_Button_Red.bmp" />
+    <Image Include="Bitmaps\Stage_Button_Yellow.bmp" />
+    <Image Include="Bitmaps\stage_map.bmp" />
+    <Image Include="Bitmaps\SuperCandy.bmp" />
+    <Image Include="Bitmaps\ClickedSuperCandy.bmp" />
+    <Image Include="Bitmaps\TabAbout.bmp" />
+    <Image Include="Bitmaps\TabCheat.bmp" />
+    <Image Include="Bitmaps\TabHowToPlay.bmp" />
+    <Image Include="Bitmaps\Tiffy_0.bmp" />
+    <Image Include="Bitmaps\Tiffy_1.bmp" />
+    <Image Include="Bitmaps\Tiffy_2.bmp" />
+    <Image Include="Bitmaps\Tiffy_3.bmp" />
+    <Image Include="Bitmaps\Tiffy_4.bmp" />
+    <Image Include="Bitmaps\Tiffy_5.bmp" />
+    <Image Include="Bitmaps\Tiffy_6.bmp" />
+    <Image Include="Bitmaps\Tiffy_7.bmp" />
+    <Image Include="Bitmaps\Tiffy_8.bmp" />
+    <Image Include="Bitmaps\Tiffy_9.bmp" />
+    <Image Include="Bitmaps\Toffee_1.bmp" />
+    <Image Include="Bitmaps\Toffee_2.bmp" />
+    <Image Include="Bitmaps\Toffee_3.bmp" />
+    <Image Include="Bitmaps\Toffee_4.bmp" />
+    <Image Include="Bitmaps\Toffee_5.bmp" />
+    <Image Include="Bitmaps\Toffee_6.bmp" />
+    <Image Include="Bitmaps\Unlock_Level .bmp" />
+    <Image Include="Bitmaps\WoodBackground.bmp" />
+    <Image Include="Bitmaps\YellowCandy.bmp" />
+    <Image Include="Bitmaps\YellowCandy1.bmp" />
+    <Image Include="Bitmaps\YellowCandy2.bmp" />
+    <Image Include="Bitmaps\YellowCandy3.bmp" />
+    <Image Include="Bitmaps\YellowCandy4.bmp" />
+    <Image Include="Bitmaps\YellowExplode1.bmp" />
+    <Image Include="Bitmaps\YellowExplode10.bmp" />
+    <Image Include="Bitmaps\YellowExplode2.bmp" />
+    <Image Include="Bitmaps\YellowExplode3.bmp" />
+    <Image Include="Bitmaps\YellowExplode4.bmp" />
+    <Image Include="Bitmaps\YellowExplode5.bmp" />
+    <Image Include="Bitmaps\YellowExplode6.bmp" />
+    <Image Include="Bitmaps\YellowExplode7.bmp" />
+    <Image Include="Bitmaps\YellowExplode8.bmp" />
+    <Image Include="Bitmaps\YellowExplode9.bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (1).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (10).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (11).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (12).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (13).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (14).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (15).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (16).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (17).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (18).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (19).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (2).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (20).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (21).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (22).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (23).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (24).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (25).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (26).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (27).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (28).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (29).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (3).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (30).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (4).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (5).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (6).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (7).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (8).bmp" />
+    <Image Include="Bitmaps\YellowHLineExplode (9).bmp" />
+    <Image Include="Bitmaps\YellowStar1.bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (1).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (10).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (11).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (12).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (13).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (14).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (15).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (16).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (17).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (18).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (19).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (2).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (20).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (21).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (22).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (23).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (24).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (25).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (26).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (27).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (28).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (29).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (3).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (30).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (4).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (5).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (6).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (7).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (8).bmp" />
+    <Image Include="Bitmaps\YellowVLineExplode (9).bmp" />
+    <Image Include="res\bitmap3.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp1_0.bmp" />
+    <Image Include="res\bmp1_1.bmp" />
+    <Image Include="res\bmp1_2.bmp" />
+    <Image Include="res\bmp1_3.bmp" />
+    <Image Include="res\bmp1_4.bmp" />
+    <Image Include="res\bmp1_5.bmp" />
+    <Image Include="res\bmp1_6.bmp" />
+    <Image Include="res\bmp1_7.bmp" />
+    <Image Include="res\bmp1_8.bmp" />
+    <Image Include="res\bmp1_9.bmp" />
+    <Image Include="RES\bmp2_0.bmp" />
+    <Image Include="RES\bmp2_1.bmp" />
+    <Image Include="RES\bmp2_2.bmp" />
+    <Image Include="RES\bmp2_3.bmp" />
+    <Image Include="RES\bmp2_4.bmp" />
+    <Image Include="RES\bmp2_5.bmp" />
+    <Image Include="RES\bmp2_6.bmp" />
+    <Image Include="RES\bmp2_7.bmp" />
+    <Image Include="RES\bmp2_8.bmp" />
+    <Image Include="RES\bmp2_9.bmp" />
+    <Image Include="RES\bmp3_0.bmp" />
+    <Image Include="RES\bmp3_1.bmp" />
+    <Image Include="RES\bmp3_2.bmp" />
+    <Image Include="RES\bmp3_3.bmp" />
+    <Image Include="RES\bmp3_4.bmp" />
+    <Image Include="RES\bmp3_5.bmp" />
+    <Image Include="RES\bmp3_6.bmp" />
+    <Image Include="RES\bmp3_7.bmp" />
+    <Image Include="RES\bmp3_8.bmp" />
+    <Image Include="RES\bmp3_9.bmp" />
+    <Image Include="res\bmp_0.bmp" />
+    <Image Include="res\bmp_1.bmp" />
+    <Image Include="res\bmp_2.bmp" />
+    <Image Include="res\bmp_3.bmp" />
+    <Image Include="res\bmp_4.bmp" />
+    <Image Include="res\bmp_5.bmp" />
+    <Image Include="res\bmp_6.bmp" />
+    <Image Include="res\bmp_7.bmp" />
+    <Image Include="res\bmp_8.bmp" />
+    <Image Include="res\bmp_9.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Source\game.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

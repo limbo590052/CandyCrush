@@ -1,0 +1,7 @@
+diff a/game4.10.1/Source/gameView.h b/game4.10.1/Source/gameView.h	(rejected hunks)
+@@ -1,4 +0,4 @@
+-/*
++﻿/*
+  * gameView.h : interface of the CGameView class
+  * Copyright (C) 2002-2008 Woei-Kae Chen <wkc@csie.ntut.edu.tw>
+  *

@@ -1,0 +1,1783 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Traditional, Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\game.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_0                   BITMAP                  "..\\res\\bmp_0.bmp"
+
+IDB_1                   BITMAP                  "..\\res\\bmp_1.bmp"
+
+IDB_2                   BITMAP                  "..\\res\\bmp_2.bmp"
+
+IDB_3                   BITMAP                  "..\\res\\bmp_3.bmp"
+
+IDB_4                   BITMAP                  "..\\res\\bmp_4.bmp"
+
+IDB_5                   BITMAP                  "..\\res\\bmp_5.bmp"
+
+IDB_6                   BITMAP                  "..\\res\\bmp_6.bmp"
+
+IDB_7                   BITMAP                  "..\\res\\bmp_7.bmp"
+
+IDB_8                   BITMAP                  "..\\res\\bmp_8.bmp"
+
+IDB_9                   BITMAP                  "..\\res\\bmp_9.bmp"
+
+IDB1_0                  BITMAP                  "..\\res\\bmp1_0.bmp"
+
+IDB1_1                  BITMAP                  "..\\res\\bmp1_1.bmp"
+
+IDB1_2                  BITMAP                  "..\\res\\bmp1_2.bmp"
+
+IDB1_3                  BITMAP                  "..\\res\\bmp1_3.bmp"
+
+IDB1_4                  BITMAP                  "..\\res\\bmp1_4.bmp"
+
+IDB1_5                  BITMAP                  "..\\res\\bmp1_5.bmp"
+
+IDB1_6                  BITMAP                  "..\\res\\bmp1_6.bmp"
+
+IDB1_7                  BITMAP                  "..\\res\\bmp1_7.bmp"
+
+IDB1_8                  BITMAP                  "..\\res\\bmp1_8.bmp"
+
+IDB1_9                  BITMAP                  "..\\res\\bmp1_9.bmp"
+
+IDB2_0                  BITMAP                  "..\\res\\bmp2_0.bmp"
+
+IDB2_1                  BITMAP                  "..\\res\\bmp2_1.bmp"
+
+IDB2_2                  BITMAP                  "..\\res\\bmp2_2.bmp"
+
+IDB2_3                  BITMAP                  "..\\res\\bmp2_3.bmp"
+
+IDB2_4                  BITMAP                  "..\\res\\bmp2_4.bmp"
+
+IDB2_5                  BITMAP                  "..\\res\\bmp2_5.bmp"
+
+IDB2_6                  BITMAP                  "..\\res\\bmp2_6.bmp"
+
+IDB2_7                  BITMAP                  "..\\res\\bmp2_7.bmp"
+
+IDB2_8                  BITMAP                  "..\\res\\bmp2_8.bmp"
+
+IDB2_9                  BITMAP                  "..\\res\\bmp2_9.bmp"
+
+IDB3_0                  BITMAP                  "..\\res\\bmp3_0.bmp"
+
+IDB3_1                  BITMAP                  "..\\res\\bmp3_1.bmp"
+
+IDB3_2                  BITMAP                  "..\\res\\bmp3_2.bmp"
+
+IDB3_3                  BITMAP                  "..\\res\\bmp3_3.bmp"
+
+IDB3_4                  BITMAP                  "..\\res\\bmp3_4.bmp"
+
+IDB3_5                  BITMAP                  "..\\res\\bmp3_5.bmp"
+
+IDB3_6                  BITMAP                  "..\\res\\bmp3_6.bmp"
+
+IDB3_7                  BITMAP                  "..\\res\\bmp3_7.bmp"
+
+IDB3_8                  BITMAP                  "..\\res\\bmp3_8.bmp"
+
+IDB3_9                  BITMAP                  "..\\res\\bmp3_9.bmp"
+
+IDB_MINUS               BITMAP                  "..\\res\\bmp10.bmp"
+
+IDB_CONTINUE            BITMAP                  "..\\res\\continue.bmp"
+
+IDB_LOADING             BITMAP                  "..\\res\\loading.bmp"
+
+IDB_LOGIN_LOADING       BITMAP                  "..\\Bitmaps\\loginLoading.bmp"
+
+IDB_INGAME_LOADING      BITMAP                  "..\\Bitmaps\\inGameLoading.bmp"
+
+IDB_RED_NOR             BITMAP                  "..\\Bitmaps\\RedCandy.bmp"
+
+IDB_RED_NOR_C           BITMAP                  "..\\Bitmaps\\ClickedRedCandy.bmp"
+
+IDB_RED_HOR             BITMAP                  "..\\Bitmaps\\P1RedCandy.bmp"
+
+IDB_RED_HOR_C           BITMAP                  "..\\Bitmaps\\ClickedP1RedCandy.bmp"
+
+IDB_RED_VER             BITMAP                  "..\\Bitmaps\\P2RedCandy.bmp"
+
+IDB_RED_VER_C           BITMAP                  "..\\Bitmaps\\ClickedP2RedCandy.bmp"
+
+IDB_RED_PAC             BITMAP                  "..\\Bitmaps\\P3RedCandy.bmp"
+
+IDB_RED_PAC_C           BITMAP                  "..\\Bitmaps\\ClickedP3RedCandy.bmp"
+
+IDB_ORG_NOR             BITMAP                  "..\\Bitmaps\\OrangeCandy.bmp"
+
+IDB_ORG_NOR_C           BITMAP                  "..\\Bitmaps\\ClickedOrangeCandy.bmp"
+
+IDB_ORG_HOR             BITMAP                  "..\\Bitmaps\\P1OrangeCandy.bmp"
+
+IDB_ORG_HOR_C           BITMAP                  "..\\Bitmaps\\ClickedP1OrangeCandy.bmp"
+
+IDB_ORG_VER             BITMAP                  "..\\Bitmaps\\P2OrangeCandy.bmp"
+
+IDB_ORG_VER_C           BITMAP                  "..\\Bitmaps\\ClickedP2OrangeCandy.bmp"
+
+IDB_ORG_PAC             BITMAP                  "..\\Bitmaps\\P3OrangeCandy.bmp"
+
+IDB_ORG_PAC_C           BITMAP                  "..\\Bitmaps\\ClickedP3OrangeCandy.bmp"
+
+IDB_GRE_NOR             BITMAP                  "..\\Bitmaps\\GreenCandy.bmp"
+
+IDB_GRE_NOR_C           BITMAP                  "..\\Bitmaps\\ClickedGreenCandy.bmp"
+
+IDB_GRE_HOR             BITMAP                  "..\\Bitmaps\\P1GreenCandy.bmp"
+
+IDB_GRE_HOR_C           BITMAP                  "..\\Bitmaps\\ClickedP1GreenCandy.bmp"
+
+IDB_GRE_VER             BITMAP                  "..\\Bitmaps\\P2GreenCandy.bmp"
+
+IDB_GRE_VER_C           BITMAP                  "..\\Bitmaps\\ClickedP2GreenCandy.bmp"
+
+IDB_GRE_PAC             BITMAP                  "..\\Bitmaps\\P3GreenCandy.bmp"
+
+IDB_GRE_PAC_C           BITMAP                  "..\\Bitmaps\\ClickedP3GreenCandy.bmp"
+
+IDB_BLU_NOR             BITMAP                  "..\\Bitmaps\\BlueCandy.bmp"
+
+IDB_BLU_NOR_C           BITMAP                  "..\\Bitmaps\\ClickedBlueCandy.bmp"
+
+IDB_BLU_HOR             BITMAP                  "..\\Bitmaps\\P1BlueCandy.bmp"
+
+IDB_BLU_HOR_C           BITMAP                  "..\\Bitmaps\\ClickedP1BlueCandy.bmp"
+
+IDB_BLU_VER             BITMAP                  "..\\Bitmaps\\P2BlueCandy.bmp"
+
+IDB_BLU_VER_C           BITMAP                  "..\\Bitmaps\\ClickedP2BlueCandy.bmp"
+
+IDB_BLU_PAC             BITMAP                  "..\\Bitmaps\\P3BlueCandy.bmp"
+
+IDB_BLU_PAC_C           BITMAP                  "..\\Bitmaps\\ClickedP3BlueCandy.bmp"
+
+IDB_PUR_NOR             BITMAP                  "..\\Bitmaps\\PurpleCandy.bmp"
+
+IDB_PUR_NOR_C           BITMAP                  "..\\Bitmaps\\ClickedPurpleCandy.bmp"
+
+IDB_PUR_HOR             BITMAP                  "..\\Bitmaps\\P1PurpleCandy.bmp"
+
+IDB_PUR_HOR_C           BITMAP                  "..\\Bitmaps\\ClickedP1PurpleCandy.bmp"
+
+IDB_PUR_VER             BITMAP                  "..\\Bitmaps\\P2PurpleCandy.bmp"
+
+IDB_PUR_VER_C           BITMAP                  "..\\Bitmaps\\ClickedP2PurpleCandy.bmp"
+
+IDB_PUR_PAC             BITMAP                  "..\\Bitmaps\\P3PurpleCandy.bmp"
+
+IDB_PUR_PAC_C           BITMAP                  "..\\Bitmaps\\ClickedP3PurpleCandy.bmp"
+
+IDB_YEL_NOR             BITMAP                  "..\\Bitmaps\\YellowCandy.bmp"
+
+IDB_YEL_NOR_C           BITMAP                  "..\\Bitmaps\\ClickedYellowCandy.bmp"
+
+IDB_YEL_HOR             BITMAP                  "..\\Bitmaps\\P1YellowCandy.bmp"
+
+IDB_YEL_HOR_C           BITMAP                  "..\\Bitmaps\\ClickedP1YellowCandy.bmp"
+
+IDB_YEL_VER             BITMAP                  "..\\Bitmaps\\P2YellowCandy.bmp"
+
+IDB_YEL_VER_C           BITMAP                  "..\\Bitmaps\\ClickedP2YellowCandy.bmp"
+
+IDB_YEL_PAC             BITMAP                  "..\\Bitmaps\\P3YellowCandy.bmp"
+
+IDB_YEL_PAC_C           BITMAP                  "..\\Bitmaps\\ClickedP3YellowCandy.bmp"
+
+IDB_SUPER               BITMAP                  "..\\Bitmaps\\SuperCandy.bmp"
+
+IDB_SUPER_C             BITMAP                  "..\\Bitmaps\\ClickedSuperCandy.bmp"
+
+IDB_CONTAINER           BITMAP                  "..\\Bitmaps\\container.bmp"
+
+IDB_RED_EXPL1           BITMAP                  "..\\Bitmaps\\RedExplode1.bmp"
+
+IDB_RED_EXPL2           BITMAP                  "..\\Bitmaps\\RedExplode2.bmp"
+
+IDB_RED_EXPL3           BITMAP                  "..\\Bitmaps\\RedExplode3.bmp"
+
+IDB_RED_EXPL4           BITMAP                  "..\\Bitmaps\\RedExplode4.bmp"
+
+IDB_RED_EXPL5           BITMAP                  "..\\Bitmaps\\RedExplode5.bmp"
+
+IDB_RED_EXPL6           BITMAP                  "..\\Bitmaps\\RedExplode6.bmp"
+
+IDB_RED_EXPL7           BITMAP                  "..\\Bitmaps\\RedExplode7.bmp"
+
+IDB_RED_EXPL8           BITMAP                  "..\\Bitmaps\\RedExplode8.bmp"
+
+IDB_RED_EXPL9           BITMAP                  "..\\Bitmaps\\RedExplode9.bmp"
+
+IDB_RED_EXPL10          BITMAP                  "..\\Bitmaps\\RedExplode10.bmp"
+
+IDB_ORG_EXPL1           BITMAP                  "..\\Bitmaps\\OrangeExplode1.bmp"
+
+IDB_ORG_EXPL2           BITMAP                  "..\\Bitmaps\\OrangeExplode2.bmp"
+
+IDB_ORG_EXPL3           BITMAP                  "..\\Bitmaps\\OrangeExplode3.bmp"
+
+IDB_ORG_EXPL4           BITMAP                  "..\\Bitmaps\\OrangeExplode4.bmp"
+
+IDB_ORG_EXPL5           BITMAP                  "..\\Bitmaps\\OrangeExplode5.bmp"
+
+IDB_ORG_EXPL6           BITMAP                  "..\\Bitmaps\\OrangeExplode6.bmp"
+
+IDB_ORG_EXPL7           BITMAP                  "..\\Bitmaps\\OrangeExplode7.bmp"
+
+IDB_ORG_EXPL8           BITMAP                  "..\\Bitmaps\\OrangeExplode8.bmp"
+
+IDB_ORG_EXPL9           BITMAP                  "..\\Bitmaps\\OrangeExplode9.bmp"
+
+IDB_ORG_EXPL10          BITMAP                  "..\\Bitmaps\\OrangeExplode10.bmp"
+
+IDB_YEL_EXPL1           BITMAP                  "..\\Bitmaps\\YellowExplode1.bmp"
+
+IDB_YEL_EXPL2           BITMAP                  "..\\Bitmaps\\YellowExplode2.bmp"
+
+IDB_YEL_EXPL3           BITMAP                  "..\\Bitmaps\\YellowExplode3.bmp"
+
+IDB_YEL_EXPL4           BITMAP                  "..\\Bitmaps\\YellowExplode4.bmp"
+
+IDB_YEL_EXPL5           BITMAP                  "..\\Bitmaps\\YellowExplode5.bmp"
+
+IDB_YEL_EXPL6           BITMAP                  "..\\Bitmaps\\YellowExplode6.bmp"
+
+IDB_YEL_EXPL7           BITMAP                  "..\\Bitmaps\\YellowExplode7.bmp"
+
+IDB_YEL_EXPL8           BITMAP                  "..\\Bitmaps\\YellowExplode8.bmp"
+
+IDB_YEL_EXPL9           BITMAP                  "..\\Bitmaps\\YellowExplode9.bmp"
+
+IDB_YEL_EXPL10          BITMAP                  "..\\Bitmaps\\YellowExplode10.bmp"
+
+IDB_GRE_EXPL1           BITMAP                  "..\\Bitmaps\\GreenExplode1.bmp"
+
+IDB_GRE_EXPL2           BITMAP                  "..\\Bitmaps\\GreenExplode2.bmp"
+
+IDB_GRE_EXPL3           BITMAP                  "..\\Bitmaps\\GreenExplode3.bmp"
+
+IDB_GRE_EXPL4           BITMAP                  "..\\Bitmaps\\GreenExplode4.bmp"
+
+IDB_GRE_EXPL5           BITMAP                  "..\\Bitmaps\\GreenExplode5.bmp"
+
+IDB_GRE_EXPL6           BITMAP                  "..\\Bitmaps\\GreenExplode6.bmp"
+
+IDB_GRE_EXPL7           BITMAP                  "..\\Bitmaps\\GreenExplode7.bmp"
+
+IDB_GRE_EXPL8           BITMAP                  "..\\Bitmaps\\GreenExplode8.bmp"
+
+IDB_GRE_EXPL9           BITMAP                  "..\\Bitmaps\\GreenExplode9.bmp"
+
+IDB_GRE_EXPL10          BITMAP                  "..\\Bitmaps\\GreenExplode10.bmp"
+
+IDB_BLU_EXPL1           BITMAP                  "..\\Bitmaps\\BlueExplode1.bmp"
+
+IDB_BLU_EXPL2           BITMAP                  "..\\Bitmaps\\BlueExplode2.bmp"
+
+IDB_BLU_EXPL3           BITMAP                  "..\\Bitmaps\\BlueExplode3.bmp"
+
+IDB_BLU_EXPL4           BITMAP                  "..\\Bitmaps\\BlueExplode4.bmp"
+
+IDB_BLU_EXPL5           BITMAP                  "..\\Bitmaps\\BlueExplode5.bmp"
+
+IDB_BLU_EXPL6           BITMAP                  "..\\Bitmaps\\BlueExplode6.bmp"
+
+IDB_BLU_EXPL7           BITMAP                  "..\\Bitmaps\\BlueExplode7.bmp"
+
+IDB_BLU_EXPL8           BITMAP                  "..\\Bitmaps\\BlueExplode8.bmp"
+
+IDB_BLU_EXPL9           BITMAP                  "..\\Bitmaps\\BlueExplode9.bmp"
+
+IDB_BLU_EXPL10          BITMAP                  "..\\Bitmaps\\BlueExplode10.bmp"
+
+IDB_PUR_EXPL1           BITMAP                  "..\\Bitmaps\\PurpleExplode1.bmp"
+
+IDB_PUR_EXPL2           BITMAP                  "..\\Bitmaps\\PurpleExplode2.bmp"
+
+IDB_PUR_EXPL3           BITMAP                  "..\\Bitmaps\\PurpleExplode3.bmp"
+
+IDB_PUR_EXPL4           BITMAP                  "..\\Bitmaps\\PurpleExplode4.bmp"
+
+IDB_PUR_EXPL5           BITMAP                  "..\\Bitmaps\\PurpleExplode5.bmp"
+
+IDB_PUR_EXPL6           BITMAP                  "..\\Bitmaps\\PurpleExplode6.bmp"
+
+IDB_PUR_EXPL7           BITMAP                  "..\\Bitmaps\\PurpleExplode7.bmp"
+
+IDB_PUR_EXPL8           BITMAP                  "..\\Bitmaps\\PurpleExplode8.bmp"
+
+IDB_PUR_EXPL9           BITMAP                  "..\\Bitmaps\\PurpleExplode9.bmp"
+
+IDB_PUR_EXPL10          BITMAP                  "..\\Bitmaps\\PurpleExplode10.bmp"
+
+IDB_RED_SHAT1           BITMAP                  "..\\Bitmaps\\shatter1_RED.bmp"
+
+IDB_RED_SHAT2           BITMAP                  "..\\Bitmaps\\shatter2_RED.bmp"
+
+IDB_RED_SHAT3           BITMAP                  "..\\Bitmaps\\shatter3_RED.bmp"
+
+IDB_RED_SHAT4           BITMAP                  "..\\Bitmaps\\shatter4_RED.bmp"
+
+IDB_RED_SHAT5           BITMAP                  "..\\Bitmaps\\shatter5_RED.bmp"
+
+IDB_RED_SHAT6           BITMAP                  "..\\Bitmaps\\shatter6_RED.bmp"
+
+IDB_RED_SHAT7           BITMAP                  "..\\Bitmaps\\shatter7_RED.bmp"
+
+IDB_RED_SHAT8           BITMAP                  "..\\Bitmaps\\shatter8_RED.bmp"
+
+IDB_RED_SHAT9           BITMAP                  "..\\Bitmaps\\shatter9_RED.bmp"
+
+IDB_RED_SHAT10          BITMAP                  "..\\Bitmaps\\shatter10_RED.bmp"
+
+IDB_RED_SHAT11          BITMAP                  "..\\Bitmaps\\shatter11_RED.bmp"
+
+IDB_RED_SHAT12          BITMAP                  "..\\Bitmaps\\shatter12_RED.bmp"
+
+IDB_RED_SHAT13          BITMAP                  "..\\Bitmaps\\shatter13_RED.bmp"
+
+IDB_RED_SHAT14          BITMAP                  "..\\Bitmaps\\shatter14_RED.bmp"
+
+IDB_RED_SHAT15          BITMAP                  "..\\Bitmaps\\shatter15_RED.bmp"
+
+IDB_ORG_SHAT1           BITMAP                  "..\\Bitmaps\\shatter1_ORG.bmp"
+
+IDB_ORG_SHAT2           BITMAP                  "..\\Bitmaps\\shatter2_ORG.bmp"
+
+IDB_ORG_SHAT3           BITMAP                  "..\\Bitmaps\\shatter3_ORG.bmp"
+
+IDB_ORG_SHAT4           BITMAP                  "..\\Bitmaps\\shatter4_ORG.bmp"
+
+IDB_ORG_SHAT5           BITMAP                  "..\\Bitmaps\\shatter5_ORG.bmp"
+
+IDB_ORG_SHAT6           BITMAP                  "..\\Bitmaps\\shatter6_ORG.bmp"
+
+IDB_ORG_SHAT7           BITMAP                  "..\\Bitmaps\\shatter7_ORG.bmp"
+
+IDB_ORG_SHAT8           BITMAP                  "..\\Bitmaps\\shatter8_ORG.bmp"
+
+IDB_ORG_SHAT9           BITMAP                  "..\\Bitmaps\\shatter9_ORG.bmp"
+
+IDB_ORG_SHAT10          BITMAP                  "..\\Bitmaps\\shatter10_ORG.bmp"
+
+IDB_ORG_SHAT11          BITMAP                  "..\\Bitmaps\\shatter11_ORG.bmp"
+
+IDB_ORG_SHAT12          BITMAP                  "..\\Bitmaps\\shatter12_ORG.bmp"
+
+IDB_ORG_SHAT13          BITMAP                  "..\\Bitmaps\\shatter13_ORG.bmp"
+
+IDB_ORG_SHAT14          BITMAP                  "..\\Bitmaps\\shatter14_ORG.bmp"
+
+IDB_ORG_SHAT15          BITMAP                  "..\\Bitmaps\\shatter15_ORG.bmp"
+
+IDB_YEL_SHAT1           BITMAP                  "..\\Bitmaps\\shatter1_YEL.bmp"
+
+IDB_YEL_SHAT2           BITMAP                  "..\\Bitmaps\\shatter2_YEL.bmp"
+
+IDB_YEL_SHAT3           BITMAP                  "..\\Bitmaps\\shatter3_YEL.bmp"
+
+IDB_YEL_SHAT4           BITMAP                  "..\\Bitmaps\\shatter4_YEL.bmp"
+
+IDB_YEL_SHAT5           BITMAP                  "..\\Bitmaps\\shatter5_YEL.bmp"
+
+IDB_YEL_SHAT6           BITMAP                  "..\\Bitmaps\\shatter6_YEL.bmp"
+
+IDB_YEL_SHAT7           BITMAP                  "..\\Bitmaps\\shatter7_YEL.bmp"
+
+IDB_YEL_SHAT8           BITMAP                  "..\\Bitmaps\\shatter8_YEL.bmp"
+
+IDB_YEL_SHAT9           BITMAP                  "..\\Bitmaps\\shatter9_YEL.bmp"
+
+IDB_YEL_SHAT10          BITMAP                  "..\\Bitmaps\\shatter10_YEL.bmp"
+
+IDB_YEL_SHAT11          BITMAP                  "..\\Bitmaps\\shatter11_YEL.bmp"
+
+IDB_YEL_SHAT12          BITMAP                  "..\\Bitmaps\\shatter12_YEL.bmp"
+
+IDB_YEL_SHAT13          BITMAP                  "..\\Bitmaps\\shatter13_YEL.bmp"
+
+IDB_YEL_SHAT14          BITMAP                  "..\\Bitmaps\\shatter14_YEL.bmp"
+
+IDB_YEL_SHAT15          BITMAP                  "..\\Bitmaps\\shatter15_YEL.bmp"
+
+IDB_GRE_SHAT1           BITMAP                  "..\\Bitmaps\\shatter1_GRE.bmp"
+
+IDB_GRE_SHAT2           BITMAP                  "..\\Bitmaps\\shatter2_GRE.bmp"
+
+IDB_GRE_SHAT3           BITMAP                  "..\\Bitmaps\\shatter3_GRE.bmp"
+
+IDB_GRE_SHAT4           BITMAP                  "..\\Bitmaps\\shatter4_GRE.bmp"
+
+IDB_GRE_SHAT5           BITMAP                  "..\\Bitmaps\\shatter5_GRE.bmp"
+
+IDB_GRE_SHAT6           BITMAP                  "..\\Bitmaps\\shatter6_GRE.bmp"
+
+IDB_GRE_SHAT7           BITMAP                  "..\\Bitmaps\\shatter7_GRE.bmp"
+
+IDB_GRE_SHAT8           BITMAP                  "..\\Bitmaps\\shatter8_GRE.bmp"
+
+IDB_GRE_SHAT9           BITMAP                  "..\\Bitmaps\\shatter9_GRE.bmp"
+
+IDB_GRE_SHAT10          BITMAP                  "..\\Bitmaps\\shatter10_GRE.bmp"
+
+IDB_GRE_SHAT11          BITMAP                  "..\\Bitmaps\\shatter11_GRE.bmp"
+
+IDB_GRE_SHAT12          BITMAP                  "..\\Bitmaps\\shatter12_GRE.bmp"
+
+IDB_GRE_SHAT13          BITMAP                  "..\\Bitmaps\\shatter13_GRE.bmp"
+
+IDB_GRE_SHAT14          BITMAP                  "..\\Bitmaps\\shatter14_GRE.bmp"
+
+IDB_GRE_SHAT15          BITMAP                  "..\\Bitmaps\\shatter15_GRE.bmp"
+
+IDB_BLU_SHAT1           BITMAP                  "..\\Bitmaps\\shatter1_BLU.bmp"
+
+IDB_BLU_SHAT2           BITMAP                  "..\\Bitmaps\\shatter2_BLU.bmp"
+
+IDB_BLU_SHAT3           BITMAP                  "..\\Bitmaps\\shatter3_BLU.bmp"
+
+IDB_BLU_SHAT4           BITMAP                  "..\\Bitmaps\\shatter4_BLU.bmp"
+
+IDB_BLU_SHAT5           BITMAP                  "..\\Bitmaps\\shatter5_BLU.bmp"
+
+IDB_BLU_SHAT6           BITMAP                  "..\\Bitmaps\\shatter6_BLU.bmp"
+
+IDB_BLU_SHAT7           BITMAP                  "..\\Bitmaps\\shatter7_BLU.bmp"
+
+IDB_BLU_SHAT8           BITMAP                  "..\\Bitmaps\\shatter8_BLU.bmp"
+
+IDB_BLU_SHAT9           BITMAP                  "..\\Bitmaps\\shatter9_BLU.bmp"
+
+IDB_BLU_SHAT10          BITMAP                  "..\\Bitmaps\\shatter10_BLU.bmp"
+
+IDB_BLU_SHAT11          BITMAP                  "..\\Bitmaps\\shatter11_BLU.bmp"
+
+IDB_BLU_SHAT12          BITMAP                  "..\\Bitmaps\\shatter12_BLU.bmp"
+
+IDB_BLU_SHAT13          BITMAP                  "..\\Bitmaps\\shatter13_BLU.bmp"
+
+IDB_BLU_SHAT14          BITMAP                  "..\\Bitmaps\\shatter14_BLU.bmp"
+
+IDB_BLU_SHAT15          BITMAP                  "..\\Bitmaps\\shatter15_BLU.bmp"
+
+IDB_PUR_SHAT1           BITMAP                  "..\\Bitmaps\\shatter1_PUR.bmp"
+
+IDB_PUR_SHAT2           BITMAP                  "..\\Bitmaps\\shatter2_PUR.bmp"
+
+IDB_PUR_SHAT3           BITMAP                  "..\\Bitmaps\\shatter3_PUR.bmp"
+
+IDB_PUR_SHAT4           BITMAP                  "..\\Bitmaps\\shatter4_PUR.bmp"
+
+IDB_PUR_SHAT5           BITMAP                  "..\\Bitmaps\\shatter5_PUR.bmp"
+
+IDB_PUR_SHAT6           BITMAP                  "..\\Bitmaps\\shatter6_PUR.bmp"
+
+IDB_PUR_SHAT7           BITMAP                  "..\\Bitmaps\\shatter7_PUR.bmp"
+
+IDB_PUR_SHAT8           BITMAP                  "..\\Bitmaps\\shatter8_PUR.bmp"
+
+IDB_PUR_SHAT9           BITMAP                  "..\\Bitmaps\\shatter9_PUR.bmp"
+
+IDB_PUR_SHAT10          BITMAP                  "..\\Bitmaps\\shatter10_PUR.bmp"
+
+IDB_PUR_SHAT11          BITMAP                  "..\\Bitmaps\\shatter11_PUR.bmp"
+
+IDB_PUR_SHAT12          BITMAP                  "..\\Bitmaps\\shatter12_PUR.bmp"
+
+IDB_PUR_SHAT13          BITMAP                  "..\\Bitmaps\\shatter13_PUR.bmp"
+
+IDB_PUR_SHAT14          BITMAP                  "..\\Bitmaps\\shatter14_PUR.bmp"
+
+IDB_PUR_SHAT15          BITMAP                  "..\\Bitmaps\\shatter15_PUR.bmp"
+
+IDB_TIFFY_0             BITMAP                  "..\\Bitmaps\\Tiffy_0.bmp"
+
+IDB_TIFFY_1             BITMAP                  "..\\Bitmaps\\Tiffy_1.bmp"
+
+IDB_TIFFY_2             BITMAP                  "..\\Bitmaps\\Tiffy_2.bmp"
+
+IDB_TIFFY_3             BITMAP                  "..\\Bitmaps\\Tiffy_3.bmp"
+
+IDB_TIFFY_4             BITMAP                  "..\\Bitmaps\\Tiffy_4.bmp"
+
+IDB_TIFFY_5             BITMAP                  "..\\Bitmaps\\Tiffy_5.bmp"
+
+IDB_TIFFY_6             BITMAP                  "..\\Bitmaps\\Tiffy_6.bmp"
+
+IDB_TIFFY_7             BITMAP                  "..\\Bitmaps\\Tiffy_7.bmp"
+
+IDB_TIFFY_8             BITMAP                  "..\\Bitmaps\\Tiffy_8.bmp"
+
+IDB_TIFFY_9             BITMAP                  "..\\Bitmaps\\Tiffy_9.bmp"
+
+IDB_PLAYBUTTON_1        BITMAP                  "..\\Bitmaps\\PlayButton1.bmp"
+
+IDB_PLAYBUTTON_2        BITMAP                  "..\\Bitmaps\\PlayButton2.bmp"
+
+IDB_PLAYBUTTON_3        BITMAP                  "..\\Bitmaps\\PlayButton3.bmp"
+
+IDB_PLAYBUTTON_4        BITMAP                  "..\\Bitmaps\\PlayButton4.bmp"
+
+IDB_PLAYBUTTON_5        BITMAP                  "..\\Bitmaps\\PlayButton5.bmp"
+
+IDB_PLAYBUTTON_6        BITMAP                  "..\\Bitmaps\\PlayButton6.bmp"
+
+IDB_PLAYBUTTON_7        BITMAP                  "..\\Bitmaps\\PlayButton7.bmp"
+
+IDB_PLAYBUTTON_8        BITMAP                  "..\\Bitmaps\\PlayButton8.bmp"
+
+IDB_PLAYBUTTON_9        BITMAP                  "..\\Bitmaps\\PlayButton9.bmp"
+
+IDB_PLAYBUTTON_10       BITMAP                  "..\\Bitmaps\\PlayButton10.bmp"
+
+IDB_PLAYBUTTON_11       BITMAP                  "..\\Bitmaps\\PlayButton11.bmp"
+
+IDB_PLAYBUTTON_12       BITMAP                  "..\\Bitmaps\\PlayButton12.bmp"
+
+IDB_RED_VEXPL1          BITMAP                  "..\\Bitmaps\\RedVLineExplode (1).bmp"
+
+IDB_RED_VEXPL2          BITMAP                  "..\\Bitmaps\\RedVLineExplode (2).bmp"
+
+IDB_RED_VEXPL3          BITMAP                  "..\\Bitmaps\\RedVLineExplode (3).bmp"
+
+IDB_RED_VEXPL4          BITMAP                  "..\\Bitmaps\\RedVLineExplode (4).bmp"
+
+IDB_RED_VEXPL5          BITMAP                  "..\\Bitmaps\\RedVLineExplode (5).bmp"
+
+IDB_RED_VEXPL6          BITMAP                  "..\\Bitmaps\\RedVLineExplode (6).bmp"
+
+IDB_RED_VEXPL7          BITMAP                  "..\\Bitmaps\\RedVLineExplode (7).bmp"
+
+IDB_RED_VEXPL8          BITMAP                  "..\\Bitmaps\\RedVLineExplode (8).bmp"
+
+IDB_RED_VEXPL9          BITMAP                  "..\\Bitmaps\\RedVLineExplode (9).bmp"
+
+IDB_RED_VEXPL10         BITMAP                  "..\\Bitmaps\\RedVLineExplode (10).bmp"
+
+IDB_RED_VEXPL11         BITMAP                  "..\\Bitmaps\\RedVLineExplode (11).bmp"
+
+IDB_RED_VEXPL12         BITMAP                  "..\\Bitmaps\\RedVLineExplode (12).bmp"
+
+IDB_RED_VEXPL13         BITMAP                  "..\\Bitmaps\\RedVLineExplode (13).bmp"
+
+IDB_RED_VEXPL14         BITMAP                  "..\\Bitmaps\\RedVLineExplode (14).bmp"
+
+IDB_RED_VEXPL15         BITMAP                  "..\\Bitmaps\\RedVLineExplode (15).bmp"
+
+IDB_RED_VEXPL16         BITMAP                  "..\\Bitmaps\\RedVLineExplode (16).bmp"
+
+IDB_RED_VEXPL17         BITMAP                  "..\\Bitmaps\\RedVLineExplode (17).bmp"
+
+IDB_RED_VEXPL18         BITMAP                  "..\\Bitmaps\\RedVLineExplode (18).bmp"
+
+IDB_RED_VEXPL19         BITMAP                  "..\\Bitmaps\\RedVLineExplode (19).bmp"
+
+IDB_RED_VEXPL20         BITMAP                  "..\\Bitmaps\\RedVLineExplode (20).bmp"
+
+IDB_RED_VEXPL21         BITMAP                  "..\\Bitmaps\\RedVLineExplode (21).bmp"
+
+IDB_RED_VEXPL22         BITMAP                  "..\\Bitmaps\\RedVLineExplode (22).bmp"
+
+IDB_RED_VEXPL23         BITMAP                  "..\\Bitmaps\\RedVLineExplode (23).bmp"
+
+IDB_RED_VEXPL24         BITMAP                  "..\\Bitmaps\\RedVLineExplode (24).bmp"
+
+IDB_RED_VEXPL25         BITMAP                  "..\\Bitmaps\\RedVLineExplode (25).bmp"
+
+IDB_RED_VEXPL26         BITMAP                  "..\\Bitmaps\\RedVLineExplode (26).bmp"
+
+IDB_RED_VEXPL27         BITMAP                  "..\\Bitmaps\\RedVLineExplode (27).bmp"
+
+IDB_RED_VEXPL28         BITMAP                  "..\\Bitmaps\\RedVLineExplode (28).bmp"
+
+IDB_RED_VEXPL29         BITMAP                  "..\\Bitmaps\\RedVLineExplode (29).bmp"
+
+IDB_RED_VEXPL30         BITMAP                  "..\\Bitmaps\\RedVLineExplode (30).bmp"
+
+IDB_RED_HEXPL1          BITMAP                  "..\\Bitmaps\\RedHLineExplode (1).bmp"
+
+IDB_RED_HEXPL2          BITMAP                  "..\\Bitmaps\\RedHLineExplode (2).bmp"
+
+IDB_RED_HEXPL3          BITMAP                  "..\\Bitmaps\\RedHLineExplode (3).bmp"
+
+IDB_RED_HEXPL4          BITMAP                  "..\\Bitmaps\\RedHLineExplode (4).bmp"
+
+IDB_RED_HEXPL5          BITMAP                  "..\\Bitmaps\\RedHLineExplode (5).bmp"
+
+IDB_RED_HEXPL6          BITMAP                  "..\\Bitmaps\\RedHLineExplode (6).bmp"
+
+IDB_RED_HEXPL7          BITMAP                  "..\\Bitmaps\\RedHLineExplode (7).bmp"
+
+IDB_RED_HEXPL8          BITMAP                  "..\\Bitmaps\\RedHLineExplode (8).bmp"
+
+IDB_RED_HEXPL9          BITMAP                  "..\\Bitmaps\\RedHLineExplode (9).bmp"
+
+IDB_RED_HEXPL10         BITMAP                  "..\\Bitmaps\\RedHLineExplode (10).bmp"
+
+IDB_RED_HEXPL11         BITMAP                  "..\\Bitmaps\\RedHLineExplode (11).bmp"
+
+IDB_RED_HEXPL12         BITMAP                  "..\\Bitmaps\\RedHLineExplode (12).bmp"
+
+IDB_RED_HEXPL13         BITMAP                  "..\\Bitmaps\\RedHLineExplode (13).bmp"
+
+IDB_RED_HEXPL14         BITMAP                  "..\\Bitmaps\\RedHLineExplode (14).bmp"
+
+IDB_RED_HEXPL15         BITMAP                  "..\\Bitmaps\\RedHLineExplode (15).bmp"
+
+IDB_RED_HEXPL16         BITMAP                  "..\\Bitmaps\\RedHLineExplode (16).bmp"
+
+IDB_RED_HEXPL17         BITMAP                  "..\\Bitmaps\\RedHLineExplode (17).bmp"
+
+IDB_RED_HEXPL18         BITMAP                  "..\\Bitmaps\\RedHLineExplode (18).bmp"
+
+IDB_RED_HEXPL19         BITMAP                  "..\\Bitmaps\\RedHLineExplode (19).bmp"
+
+IDB_RED_HEXPL20         BITMAP                  "..\\Bitmaps\\RedHLineExplode (20).bmp"
+
+IDB_RED_HEXPL21         BITMAP                  "..\\Bitmaps\\RedHLineExplode (21).bmp"
+
+IDB_RED_HEXPL22         BITMAP                  "..\\Bitmaps\\RedHLineExplode (22).bmp"
+
+IDB_RED_HEXPL23         BITMAP                  "..\\Bitmaps\\RedHLineExplode (23).bmp"
+
+IDB_RED_HEXPL24         BITMAP                  "..\\Bitmaps\\RedHLineExplode (24).bmp"
+
+IDB_RED_HEXPL25         BITMAP                  "..\\Bitmaps\\RedHLineExplode (25).bmp"
+
+IDB_RED_HEXPL26         BITMAP                  "..\\Bitmaps\\RedHLineExplode (26).bmp"
+
+IDB_RED_HEXPL27         BITMAP                  "..\\Bitmaps\\RedHLineExplode (27).bmp"
+
+IDB_RED_HEXPL28         BITMAP                  "..\\Bitmaps\\RedHLineExplode (28).bmp"
+
+IDB_RED_HEXPL29         BITMAP                  "..\\Bitmaps\\RedHLineExplode (29).bmp"
+
+IDB_RED_HEXPL30         BITMAP                  "..\\Bitmaps\\RedHLineExplode (30).bmp"
+
+IDB_ORG_VEXPL1          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (1).bmp"
+
+IDB_ORG_VEXPL2          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (2).bmp"
+
+IDB_ORG_VEXPL3          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (3).bmp"
+
+IDB_ORG_VEXPL4          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (4).bmp"
+
+IDB_ORG_VEXPL5          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (5).bmp"
+
+IDB_ORG_VEXPL6          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (6).bmp"
+
+IDB_ORG_VEXPL7          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (7).bmp"
+
+IDB_ORG_VEXPL8          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (8).bmp"
+
+IDB_ORG_VEXPL9          BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (9).bmp"
+
+IDB_ORG_VEXPL10         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (10).bmp"
+
+IDB_ORG_VEXPL11         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (11).bmp"
+
+IDB_ORG_VEXPL12         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (12).bmp"
+
+IDB_ORG_VEXPL13         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (13).bmp"
+
+IDB_ORG_VEXPL14         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (14).bmp"
+
+IDB_ORG_VEXPL15         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (15).bmp"
+
+IDB_ORG_VEXPL16         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (16).bmp"
+
+IDB_ORG_VEXPL17         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (17).bmp"
+
+IDB_ORG_VEXPL18         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (18).bmp"
+
+IDB_ORG_VEXPL19         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (19).bmp"
+
+IDB_ORG_VEXPL20         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (20).bmp"
+
+IDB_ORG_VEXPL21         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (21).bmp"
+
+IDB_ORG_VEXPL22         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (22).bmp"
+
+IDB_ORG_VEXPL23         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (23).bmp"
+
+IDB_ORG_VEXPL24         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (24).bmp"
+
+IDB_ORG_VEXPL25         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (25).bmp"
+
+IDB_ORG_VEXPL26         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (26).bmp"
+
+IDB_ORG_VEXPL27         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (27).bmp"
+
+IDB_ORG_VEXPL28         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (28).bmp"
+
+IDB_ORG_VEXPL29         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (29).bmp"
+
+IDB_ORG_VEXPL30         BITMAP                  "..\\Bitmaps\\OrangeVLineExplode (30).bmp"
+
+IDB_ORG_HEXPL1          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (1).bmp"
+
+IDB_ORG_HEXPL2          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (2).bmp"
+
+IDB_ORG_HEXPL3          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (3).bmp"
+
+IDB_ORG_HEXPL4          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (4).bmp"
+
+IDB_ORG_HEXPL5          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (5).bmp"
+
+IDB_ORG_HEXPL6          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (6).bmp"
+
+IDB_ORG_HEXPL7          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (7).bmp"
+
+IDB_ORG_HEXPL8          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (8).bmp"
+
+IDB_ORG_HEXPL9          BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (9).bmp"
+
+IDB_ORG_HEXPL10         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (10).bmp"
+
+IDB_ORG_HEXPL11         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (11).bmp"
+
+IDB_ORG_HEXPL12         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (12).bmp"
+
+IDB_ORG_HEXPL13         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (13).bmp"
+
+IDB_ORG_HEXPL14         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (14).bmp"
+
+IDB_ORG_HEXPL15         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (15).bmp"
+
+IDB_ORG_HEXPL16         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (16).bmp"
+
+IDB_ORG_HEXPL17         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (17).bmp"
+
+IDB_ORG_HEXPL18         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (18).bmp"
+
+IDB_ORG_HEXPL19         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (19).bmp"
+
+IDB_ORG_HEXPL20         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (20).bmp"
+
+IDB_ORG_HEXPL21         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (21).bmp"
+
+IDB_ORG_HEXPL22         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (22).bmp"
+
+IDB_ORG_HEXPL23         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (23).bmp"
+
+IDB_ORG_HEXPL24         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (24).bmp"
+
+IDB_ORG_HEXPL25         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (25).bmp"
+
+IDB_ORG_HEXPL26         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (26).bmp"
+
+IDB_ORG_HEXPL27         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (27).bmp"
+
+IDB_ORG_HEXPL28         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (28).bmp"
+
+IDB_ORG_HEXPL29         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (29).bmp"
+
+IDB_ORG_HEXPL30         BITMAP                  "..\\Bitmaps\\OrangeHLineExplode (30).bmp"
+
+IDB_YEL_VEXPL1          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (1).bmp"
+
+IDB_YEL_VEXPL2          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (2).bmp"
+
+IDB_YEL_VEXPL3          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (3).bmp"
+
+IDB_YEL_VEXPL4          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (4).bmp"
+
+IDB_YEL_VEXPL5          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (5).bmp"
+
+IDB_YEL_VEXPL6          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (6).bmp"
+
+IDB_YEL_VEXPL7          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (7).bmp"
+
+IDB_YEL_VEXPL8          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (8).bmp"
+
+IDB_YEL_VEXPL9          BITMAP                  "..\\Bitmaps\\YellowVLineExplode (9).bmp"
+
+IDB_YEL_VEXPL10         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (10).bmp"
+
+IDB_YEL_VEXPL11         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (11).bmp"
+
+IDB_YEL_VEXPL12         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (12).bmp"
+
+IDB_YEL_VEXPL13         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (13).bmp"
+
+IDB_YEL_VEXPL14         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (14).bmp"
+
+IDB_YEL_VEXPL15         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (15).bmp"
+
+IDB_YEL_VEXPL16         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (16).bmp"
+
+IDB_YEL_VEXPL17         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (17).bmp"
+
+IDB_YEL_VEXPL18         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (18).bmp"
+
+IDB_YEL_VEXPL19         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (19).bmp"
+
+IDB_YEL_VEXPL20         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (20).bmp"
+
+IDB_YEL_VEXPL21         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (21).bmp"
+
+IDB_YEL_VEXPL22         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (22).bmp"
+
+IDB_YEL_VEXPL23         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (23).bmp"
+
+IDB_YEL_VEXPL24         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (24).bmp"
+
+IDB_YEL_VEXPL25         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (25).bmp"
+
+IDB_YEL_VEXPL26         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (26).bmp"
+
+IDB_YEL_VEXPL27         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (27).bmp"
+
+IDB_YEL_VEXPL28         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (28).bmp"
+
+IDB_YEL_VEXPL29         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (29).bmp"
+
+IDB_YEL_VEXPL30         BITMAP                  "..\\Bitmaps\\YellowVLineExplode (30).bmp"
+
+IDB_YEL_HEXPL1          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (1).bmp"
+
+IDB_YEL_HEXPL2          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (2).bmp"
+
+IDB_YEL_HEXPL3          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (3).bmp"
+
+IDB_YEL_HEXPL4          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (4).bmp"
+
+IDB_YEL_HEXPL5          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (5).bmp"
+
+IDB_YEL_HEXPL6          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (6).bmp"
+
+IDB_YEL_HEXPL7          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (7).bmp"
+
+IDB_YEL_HEXPL8          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (8).bmp"
+
+IDB_YEL_HEXPL9          BITMAP                  "..\\Bitmaps\\YellowHLineExplode (9).bmp"
+
+IDB_YEL_HEXPL10         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (10).bmp"
+
+IDB_YEL_HEXPL11         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (11).bmp"
+
+IDB_YEL_HEXPL12         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (12).bmp"
+
+IDB_YEL_HEXPL13         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (13).bmp"
+
+IDB_YEL_HEXPL14         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (14).bmp"
+
+IDB_YEL_HEXPL15         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (15).bmp"
+
+IDB_YEL_HEXPL16         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (16).bmp"
+
+IDB_YEL_HEXPL17         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (17).bmp"
+
+IDB_YEL_HEXPL18         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (18).bmp"
+
+IDB_YEL_HEXPL19         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (19).bmp"
+
+IDB_YEL_HEXPL20         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (20).bmp"
+
+IDB_YEL_HEXPL21         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (21).bmp"
+
+IDB_YEL_HEXPL22         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (22).bmp"
+
+IDB_YEL_HEXPL23         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (23).bmp"
+
+IDB_YEL_HEXPL24         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (24).bmp"
+
+IDB_YEL_HEXPL25         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (25).bmp"
+
+IDB_YEL_HEXPL26         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (26).bmp"
+
+IDB_YEL_HEXPL27         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (27).bmp"
+
+IDB_YEL_HEXPL28         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (28).bmp"
+
+IDB_YEL_HEXPL29         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (29).bmp"
+
+IDB_YEL_HEXPL30         BITMAP                  "..\\Bitmaps\\YellowHLineExplode (30).bmp"
+
+IDB_GRE_VEXPL1          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (1).bmp"
+
+IDB_GRE_VEXPL2          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (2).bmp"
+
+IDB_GRE_VEXPL3          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (3).bmp"
+
+IDB_GRE_VEXPL4          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (4).bmp"
+
+IDB_GRE_VEXPL5          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (5).bmp"
+
+IDB_GRE_VEXPL6          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (6).bmp"
+
+IDB_GRE_VEXPL7          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (7).bmp"
+
+IDB_GRE_VEXPL8          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (8).bmp"
+
+IDB_GRE_VEXPL9          BITMAP                  "..\\Bitmaps\\GreenVLineExplode (9).bmp"
+
+IDB_GRE_VEXPL10         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (10).bmp"
+
+IDB_GRE_VEXPL11         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (11).bmp"
+
+IDB_GRE_VEXPL12         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (12).bmp"
+
+IDB_GRE_VEXPL13         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (13).bmp"
+
+IDB_GRE_VEXPL14         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (14).bmp"
+
+IDB_GRE_VEXPL15         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (15).bmp"
+
+IDB_GRE_VEXPL16         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (16).bmp"
+
+IDB_GRE_VEXPL17         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (17).bmp"
+
+IDB_GRE_VEXPL18         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (18).bmp"
+
+IDB_GRE_VEXPL19         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (19).bmp"
+
+IDB_GRE_VEXPL20         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (20).bmp"
+
+IDB_GRE_VEXPL21         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (21).bmp"
+
+IDB_GRE_VEXPL22         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (22).bmp"
+
+IDB_GRE_VEXPL23         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (23).bmp"
+
+IDB_GRE_VEXPL24         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (24).bmp"
+
+IDB_GRE_VEXPL25         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (25).bmp"
+
+IDB_GRE_VEXPL26         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (26).bmp"
+
+IDB_GRE_VEXPL27         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (27).bmp"
+
+IDB_GRE_VEXPL28         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (28).bmp"
+
+IDB_GRE_VEXPL29         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (29).bmp"
+
+IDB_GRE_VEXPL30         BITMAP                  "..\\Bitmaps\\GreenVLineExplode (30).bmp"
+
+IDB_GRE_HEXPL1          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (1).bmp"
+
+IDB_GRE_HEXPL2          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (2).bmp"
+
+IDB_GRE_HEXPL3          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (3).bmp"
+
+IDB_GRE_HEXPL4          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (4).bmp"
+
+IDB_GRE_HEXPL5          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (5).bmp"
+
+IDB_GRE_HEXPL6          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (6).bmp"
+
+IDB_GRE_HEXPL7          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (7).bmp"
+
+IDB_GRE_HEXPL8          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (8).bmp"
+
+IDB_GRE_HEXPL9          BITMAP                  "..\\Bitmaps\\GreenHLineExplode (9).bmp"
+
+IDB_GRE_HEXPL10         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (10).bmp"
+
+IDB_GRE_HEXPL11         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (11).bmp"
+
+IDB_GRE_HEXPL12         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (12).bmp"
+
+IDB_GRE_HEXPL13         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (13).bmp"
+
+IDB_GRE_HEXPL14         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (14).bmp"
+
+IDB_GRE_HEXPL15         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (15).bmp"
+
+IDB_GRE_HEXPL16         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (16).bmp"
+
+IDB_GRE_HEXPL17         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (17).bmp"
+
+IDB_GRE_HEXPL18         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (18).bmp"
+
+IDB_GRE_HEXPL19         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (19).bmp"
+
+IDB_GRE_HEXPL20         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (20).bmp"
+
+IDB_GRE_HEXPL21         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (21).bmp"
+
+IDB_GRE_HEXPL22         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (22).bmp"
+
+IDB_GRE_HEXPL23         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (23).bmp"
+
+IDB_GRE_HEXPL24         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (24).bmp"
+
+IDB_GRE_HEXPL25         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (25).bmp"
+
+IDB_GRE_HEXPL26         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (26).bmp"
+
+IDB_GRE_HEXPL27         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (27).bmp"
+
+IDB_GRE_HEXPL28         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (28).bmp"
+
+IDB_GRE_HEXPL29         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (29).bmp"
+
+IDB_GRE_HEXPL30         BITMAP                  "..\\Bitmaps\\GreenHLineExplode (30).bmp"
+
+IDB_BLU_VEXPL1          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (1).bmp"
+
+IDB_BLU_VEXPL2          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (2).bmp"
+
+IDB_BLU_VEXPL3          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (3).bmp"
+
+IDB_BLU_VEXPL4          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (4).bmp"
+
+IDB_BLU_VEXPL5          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (5).bmp"
+
+IDB_BLU_VEXPL6          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (6).bmp"
+
+IDB_BLU_VEXPL7          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (7).bmp"
+
+IDB_BLU_VEXPL8          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (8).bmp"
+
+IDB_BLU_VEXPL9          BITMAP                  "..\\Bitmaps\\BlueVLineExplode (9).bmp"
+
+IDB_BLU_VEXPL10         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (10).bmp"
+
+IDB_BLU_VEXPL11         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (11).bmp"
+
+IDB_BLU_VEXPL12         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (12).bmp"
+
+IDB_BLU_VEXPL13         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (13).bmp"
+
+IDB_BLU_VEXPL14         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (14).bmp"
+
+IDB_BLU_VEXPL15         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (15).bmp"
+
+IDB_BLU_VEXPL16         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (16).bmp"
+
+IDB_BLU_VEXPL17         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (17).bmp"
+
+IDB_BLU_VEXPL18         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (18).bmp"
+
+IDB_BLU_VEXPL19         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (19).bmp"
+
+IDB_BLU_VEXPL20         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (20).bmp"
+
+IDB_BLU_VEXPL21         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (21).bmp"
+
+IDB_BLU_VEXPL22         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (22).bmp"
+
+IDB_BLU_VEXPL23         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (23).bmp"
+
+IDB_BLU_VEXPL24         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (24).bmp"
+
+IDB_BLU_VEXPL25         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (25).bmp"
+
+IDB_BLU_VEXPL26         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (26).bmp"
+
+IDB_BLU_VEXPL27         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (27).bmp"
+
+IDB_BLU_VEXPL28         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (28).bmp"
+
+IDB_BLU_VEXPL29         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (29).bmp"
+
+IDB_BLU_VEXPL30         BITMAP                  "..\\Bitmaps\\BlueVLineExplode (30).bmp"
+
+IDB_BLU_HEXPL1          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (1).bmp"
+
+IDB_BLU_HEXPL2          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (2).bmp"
+
+IDB_BLU_HEXPL3          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (3).bmp"
+
+IDB_BLU_HEXPL4          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (4).bmp"
+
+IDB_BLU_HEXPL5          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (5).bmp"
+
+IDB_BLU_HEXPL6          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (6).bmp"
+
+IDB_BLU_HEXPL7          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (7).bmp"
+
+IDB_BLU_HEXPL8          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (8).bmp"
+
+IDB_BLU_HEXPL9          BITMAP                  "..\\Bitmaps\\BlueHLineExplode (9).bmp"
+
+IDB_BLU_HEXPL10         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (10).bmp"
+
+IDB_BLU_HEXPL11         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (11).bmp"
+
+IDB_BLU_HEXPL12         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (12).bmp"
+
+IDB_BLU_HEXPL13         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (13).bmp"
+
+IDB_BLU_HEXPL14         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (14).bmp"
+
+IDB_BLU_HEXPL15         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (15).bmp"
+
+IDB_BLU_HEXPL16         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (16).bmp"
+
+IDB_BLU_HEXPL17         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (17).bmp"
+
+IDB_BLU_HEXPL18         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (18).bmp"
+
+IDB_BLU_HEXPL19         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (19).bmp"
+
+IDB_BLU_HEXPL20         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (20).bmp"
+
+IDB_BLU_HEXPL21         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (21).bmp"
+
+IDB_BLU_HEXPL22         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (22).bmp"
+
+IDB_BLU_HEXPL23         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (23).bmp"
+
+IDB_BLU_HEXPL24         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (24).bmp"
+
+IDB_BLU_HEXPL25         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (25).bmp"
+
+IDB_BLU_HEXPL26         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (26).bmp"
+
+IDB_BLU_HEXPL27         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (27).bmp"
+
+IDB_BLU_HEXPL28         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (28).bmp"
+
+IDB_BLU_HEXPL29         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (29).bmp"
+
+IDB_BLU_HEXPL30         BITMAP                  "..\\Bitmaps\\BlueHLineExplode (30).bmp"
+
+IDB_PUR_VEXPL1          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (1).bmp"
+
+IDB_PUR_VEXPL2          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (2).bmp"
+
+IDB_PUR_VEXPL3          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (3).bmp"
+
+IDB_PUR_VEXPL4          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (4).bmp"
+
+IDB_PUR_VEXPL5          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (5).bmp"
+
+IDB_PUR_VEXPL6          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (6).bmp"
+
+IDB_PUR_VEXPL7          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (7).bmp"
+
+IDB_PUR_VEXPL8          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (8).bmp"
+
+IDB_PUR_VEXPL9          BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (9).bmp"
+
+IDB_PUR_VEXPL10         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (10).bmp"
+
+IDB_PUR_VEXPL11         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (11).bmp"
+
+IDB_PUR_VEXPL12         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (12).bmp"
+
+IDB_PUR_VEXPL13         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (13).bmp"
+
+IDB_PUR_VEXPL14         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (14).bmp"
+
+IDB_PUR_VEXPL15         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (15).bmp"
+
+IDB_PUR_VEXPL16         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (16).bmp"
+
+IDB_PUR_VEXPL17         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (17).bmp"
+
+IDB_PUR_VEXPL18         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (18).bmp"
+
+IDB_PUR_VEXPL19         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (19).bmp"
+
+IDB_PUR_VEXPL20         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (20).bmp"
+
+IDB_PUR_VEXPL21         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (21).bmp"
+
+IDB_PUR_VEXPL22         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (22).bmp"
+
+IDB_PUR_VEXPL23         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (23).bmp"
+
+IDB_PUR_VEXPL24         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (24).bmp"
+
+IDB_PUR_VEXPL25         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (25).bmp"
+
+IDB_PUR_VEXPL26         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (26).bmp"
+
+IDB_PUR_VEXPL27         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (27).bmp"
+
+IDB_PUR_VEXPL28         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (28).bmp"
+
+IDB_PUR_VEXPL29         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (29).bmp"
+
+IDB_PUR_VEXPL30         BITMAP                  "..\\Bitmaps\\PurpleVLineExplode (30).bmp"
+
+IDB_PUR_HEXPL1          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (1).bmp"
+
+IDB_PUR_HEXPL2          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (2).bmp"
+
+IDB_PUR_HEXPL3          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (3).bmp"
+
+IDB_PUR_HEXPL4          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (4).bmp"
+
+IDB_PUR_HEXPL5          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (5).bmp"
+
+IDB_PUR_HEXPL6          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (6).bmp"
+
+IDB_PUR_HEXPL7          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (7).bmp"
+
+IDB_PUR_HEXPL8          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (8).bmp"
+
+IDB_PUR_HEXPL9          BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (9).bmp"
+
+IDB_PUR_HEXPL10         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (10).bmp"
+
+IDB_PUR_HEXPL11         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (11).bmp"
+
+IDB_PUR_HEXPL12         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (12).bmp"
+
+IDB_PUR_HEXPL13         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (13).bmp"
+
+IDB_PUR_HEXPL14         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (14).bmp"
+
+IDB_PUR_HEXPL15         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (15).bmp"
+
+IDB_PUR_HEXPL16         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (16).bmp"
+
+IDB_PUR_HEXPL17         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (17).bmp"
+
+IDB_PUR_HEXPL18         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (18).bmp"
+
+IDB_PUR_HEXPL19         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (19).bmp"
+
+IDB_PUR_HEXPL20         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (20).bmp"
+
+IDB_PUR_HEXPL21         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (21).bmp"
+
+IDB_PUR_HEXPL22         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (22).bmp"
+
+IDB_PUR_HEXPL23         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (23).bmp"
+
+IDB_PUR_HEXPL24         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (24).bmp"
+
+IDB_PUR_HEXPL25         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (25).bmp"
+
+IDB_PUR_HEXPL26         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (26).bmp"
+
+IDB_PUR_HEXPL27         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (27).bmp"
+
+IDB_PUR_HEXPL28         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (28).bmp"
+
+IDB_PUR_HEXPL29         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (29).bmp"
+
+IDB_PUR_HEXPL30         BITMAP                  "..\\Bitmaps\\PurpleHLineExplode (30).bmp"
+
+IDB_TOFFEE_1            BITMAP                  "..\\Bitmaps\\Toffee_1.bmp"
+
+IDB_TOFFEE_2            BITMAP                  "..\\Bitmaps\\Toffee_2.bmp"
+
+IDB_TOFFEE_3            BITMAP                  "..\\Bitmaps\\Toffee_3.bmp"
+
+IDB_TOFFEE_4            BITMAP                  "..\\Bitmaps\\Toffee_4.bmp"
+
+IDB_TOFFEE_5            BITMAP                  "..\\Bitmaps\\Toffee_5.bmp"
+
+IDB_TOFFEE_6            BITMAP                  "..\\Bitmaps\\Toffee_6.bmp"
+
+IDB_STAGE_BUTTON_BLUE   BITMAP                  "..\\Bitmaps\\Stage_Button_Blue.bmp"
+
+IDB_STAGE_BUTTON_GREY   BITMAP                  "..\\Bitmaps\\Stage_Button_Grey.bmp"
+
+IDB_STAGE_BUTTON_RED    BITMAP                  "..\\Bitmaps\\Stage_Button_Red.bmp"
+
+IDB_STAGE_BUTTON_YELLOW BITMAP                  "..\\Bitmaps\\Stage_Button_Yellow.bmp"
+
+IDB_STAGE_BUTTON_GREEN  BITMAP                  "..\\Bitmaps\\Stage_Button_Green.bmp"
+
+IDB_CANDY_CRUSH_1       BITMAP                  "..\\Bitmaps\\candy_crush (1).bmp"
+
+IDB_CANDY_CRUSH_2       BITMAP                  "..\\Bitmaps\\candy_crush (2).bmp"
+
+IDB_CANDY_CRUSH_3       BITMAP                  "..\\Bitmaps\\candy_crush (3).bmp"
+
+IDB_CANDY_CRUSH_4       BITMAP                  "..\\Bitmaps\\candy_crush (4).bmp"
+
+IDB_CANDY_CRUSH_5       BITMAP                  "..\\Bitmaps\\candy_crush (5).bmp"
+
+IDB_CANDY_CRUSH_6       BITMAP                  "..\\Bitmaps\\candy_crush (6).bmp"
+
+IDB_CANDY_CRUSH_7       BITMAP                  "..\\Bitmaps\\candy_crush (7).bmp"
+
+IDB_CANDY_CRUSH_8       BITMAP                  "..\\Bitmaps\\candy_crush (8).bmp"
+
+IDB_CANDY_CRUSH_9       BITMAP                  "..\\Bitmaps\\candy_crush (9).bmp"
+
+IDB_CANDY_CRUSH_10      BITMAP                  "..\\Bitmaps\\candy_crush (10).bmp"
+
+IDB_CANDY_CRUSH_11      BITMAP                  "..\\Bitmaps\\candy_crush (11).bmp"
+
+IDB_CANDY_CRUSH_12      BITMAP                  "..\\Bitmaps\\candy_crush (12).bmp"
+
+IDB_CANDY_CRUSH_13      BITMAP                  "..\\Bitmaps\\candy_crush (13).bmp"
+
+IDB_CANDY_CRUSH_14      BITMAP                  "..\\Bitmaps\\candy_crush (14).bmp"
+
+IDB_CANDY_CRUSH_15      BITMAP                  "..\\Bitmaps\\candy_crush (15).bmp"
+
+IDB_CANDY_CRUSH_16      BITMAP                  "..\\Bitmaps\\candy_crush (16).bmp"
+
+IDB_CANDY_CRUSH_17      BITMAP                  "..\\Bitmaps\\candy_crush (17).bmp"
+
+IDB_CANDY_CRUSH_18      BITMAP                  "..\\Bitmaps\\candy_crush (18).bmp"
+
+IDB_CANDY_CRUSH_19      BITMAP                  "..\\Bitmaps\\candy_crush (19).bmp"
+
+IDB_CANDY_CRUSH_20      BITMAP                  "..\\Bitmaps\\candy_crush (20).bmp"
+
+IDB_CANDY_CRUSH_21      BITMAP                  "..\\Bitmaps\\candy_crush (21).bmp"
+
+IDB_CANDY_CRUSH_22      BITMAP                  "..\\Bitmaps\\candy_crush (22).bmp"
+
+IDB_CANDY_CRUSH_23      BITMAP                  "..\\Bitmaps\\candy_crush (23).bmp"
+
+IDB_NEXTBTN_0           BITMAP                  "..\\Bitmaps\\NextButton-0.bmp"
+
+IDB_NEXTBTN_1           BITMAP                  "..\\Bitmaps\\NextButton-1.bmp"
+
+IDB_NEXTBTN_2           BITMAP                  "..\\Bitmaps\\NextButton-2.bmp"
+
+IDB_NEXTBTN_3           BITMAP                  "..\\Bitmaps\\NextButton-3.bmp"
+
+IDB_NEXTBTN_4           BITMAP                  "..\\Bitmaps\\NextButton-4.bmp"
+
+IDB_NEXTBTN_5           BITMAP                  "..\\Bitmaps\\NextButton-5.bmp"
+
+IDB_NEXTBTN_6           BITMAP                  "..\\Bitmaps\\NextButton-6.bmp"
+
+IDB_NEXTBTN_7           BITMAP                  "..\\Bitmaps\\NextButton-7.bmp"
+
+IDB_NEXTBTN_8           BITMAP                  "..\\Bitmaps\\NextButton-8.bmp"
+
+IDB_NEXTBTN_9           BITMAP                  "..\\Bitmaps\\NextButton-9.bmp"
+
+IDB_NEXTBTN_c           BITMAP                  "..\\Bitmaps\\NextButtonClicked.bmp"
+
+IDB_RETRYBTN_0          BITMAP                  "..\\Bitmaps\\RetryButton-0.bmp"
+
+IDB_RETRYBTN_1          BITMAP                  "..\\Bitmaps\\RetryButton-1.bmp"
+
+IDB_RETRYBTN_2          BITMAP                  "..\\Bitmaps\\RetryButton-2.bmp"
+
+IDB_RETRYBTN_3          BITMAP                  "..\\Bitmaps\\RetryButton-3.bmp"
+
+IDB_RETRYBTN_4          BITMAP                  "..\\Bitmaps\\RetryButton-4.bmp"
+
+IDB_RETRYBTN_5          BITMAP                  "..\\Bitmaps\\RetryButton-5.bmp"
+
+IDB_RETRYBTN_6          BITMAP                  "..\\Bitmaps\\RetryButton-6.bmp"
+
+IDB_RETRYBTN_7          BITMAP                  "..\\Bitmaps\\RetryButton-7.bmp"
+
+IDB_RETRYBTN_8          BITMAP                  "..\\Bitmaps\\RetryButton-8.bmp"
+
+IDB_RETRYBTN_9          BITMAP                  "..\\Bitmaps\\RetryButton-9.bmp"
+
+IDB_RETRYBTN_c          BITMAP                  "..\\Bitmaps\\RetryButtonClicked.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_GAMECURSOR          CURSOR                  "..\\res\\gamecurs.cur"
+
+#endif    // Chinese (Traditional, Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "..\\res\\Toolbar.bmp"
+
+IDB_BLACK_BAR           BITMAP                  "..\\bitmaps\\bitmap3.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "..\\res\\game.ico"
+
+IDR_GAMETYPE            ICON                    "..\\res\\gameDoc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_BUTTON_FULLSCREEN
+    BUTTON      ID_BUTTON_PAUSE
+    SEPARATOR
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        ID_FILE_NEW
+        MENUITEM "Pause\tCtrl+Q",               ID_FILE_PAUSE
+        MENUITEM "&Open...",                    ID_FILE_OPEN
+        MENUITEM "&Save",                       ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...",                   ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Fullscreen\tCtrl+F",         ID_TOGGLE_FULLSCREEN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About game...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "P",            ID_FILE_PAUSE,          VIRTKEY, NOINVERT
+    VK_F11,         ID_TOGGLE_FULLSCREEN,   VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 218, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About game"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Game Framework Version 4.8",IDC_STATIC,39,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002-2012",IDC_STATIC,39,23,119,8
+    DEFPUSHBUTTON   "OK",IDOK,172,7,39,14,WS_GROUP
+    LTEXT           "Liense: GPL",IDC_STATIC,39,35,119,8
+    PUSHBUTTON      "ReadMe",IDC_README,172,24,39,13,WS_GROUP
+    LTEXT           "Author: Woei-Kae Chen, CSIE Department, NTUT",IDC_STATIC,39,47,159,8
+    LTEXT           "http://www.ntut.edu.tw/~wkchen/game",IDC_STATIC,39,60,159,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "game MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "game"
+            VALUE "LegalCopyright", "Copyright (C) 1999"
+            VALUE "OriginalFilename", "game.EXE"
+            VALUE "ProductName", "game Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "game\n\nGame\n\n\nGame.Document\nGame Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "game"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUTTON_FULLSCREEN    "Full Screen\nFull Screen"
+    ID_BUTTON_PAUSE         "Pause Game\nPause Game"
+    ID_BUTTON_UNITTEST      "Perform Unit Test"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\game.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
