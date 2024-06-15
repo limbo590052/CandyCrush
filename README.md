@@ -1,6 +1,8 @@
 # Leistungsstarkes Game Framework
 
-> 可以使用F1按鍵作弊轉換糖果
+> 可以使用F1按鍵作弊轉換糖果!
+> 可以使用F1按鍵作弊轉換糖果!
+> 可以使用F1按鍵作弊轉換糖果!
 
 LGF (Leistungsstarkes Game Framework) 是一款基於陳偉凱老師的 Game Framework 加上些許功能的 Powerful Game Framework。
 
